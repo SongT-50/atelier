@@ -1,0 +1,441 @@
+{
+  "generated": "2026-08-13 10:12",
+  "method": "Laspeyres (기준기간 물량 q0 가중 고정)",
+  "base_year": 2018,
+  "basket_size": 32,
+  "data_range": "2018-01 ~ 2026-08",
+  "headline": {
+    "complete_year": 2025,
+    "complete_index": 144.4,
+    "vs_base_pct": 44.4,
+    "latest_year": 2026,
+    "latest_index": 136.8,
+    "is_partial": true,
+    "partial": {
+      "year": 2026,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "index": 136.8,
+      "prev_same_period_index": 146.6,
+      "same_period_yoy": -6.7
+    }
+  },
+  "annual": [
+    {
+      "index": 100.0,
+      "n_products": 32,
+      "change_pct": null,
+      "year": 2018,
+      "is_partial": false
+    },
+    {
+      "index": 95.4,
+      "n_products": 32,
+      "change_pct": -4.6,
+      "year": 2019,
+      "is_partial": false
+    },
+    {
+      "index": 107.0,
+      "n_products": 32,
+      "change_pct": 12.2,
+      "year": 2020,
+      "is_partial": false
+    },
+    {
+      "index": 123.7,
+      "n_products": 32,
+      "change_pct": 15.6,
+      "year": 2021,
+      "is_partial": false
+    },
+    {
+      "index": 128.1,
+      "n_products": 32,
+      "change_pct": 3.6,
+      "year": 2022,
+      "is_partial": false
+    },
+    {
+      "index": 139.8,
+      "n_products": 32,
+      "change_pct": 9.1,
+      "year": 2023,
+      "is_partial": false
+    },
+    {
+      "index": 157.6,
+      "n_products": 32,
+      "change_pct": 12.7,
+      "year": 2024,
+      "is_partial": false
+    },
+    {
+      "index": 144.4,
+      "n_products": 32,
+      "change_pct": -8.4,
+      "year": 2025,
+      "is_partial": false
+    },
+    {
+      "index": 136.8,
+      "n_products": 32,
+      "change_pct": -5.3,
+      "year": 2026,
+      "is_partial": true
+    }
+  ],
+  "monthly": [
+    {
+      "index": 100.0,
+      "n_products": 31,
+      "change_pct": null,
+      "year": 2024,
+      "month": 1,
+      "yoy_pct": null
+    },
+    {
+      "index": 133.0,
+      "n_products": 31,
+      "change_pct": 33.0,
+      "year": 2024,
+      "month": 2,
+      "yoy_pct": null
+    },
+    {
+      "index": 129.9,
+      "n_products": 31,
+      "change_pct": -2.3,
+      "year": 2024,
+      "month": 3,
+      "yoy_pct": null
+    },
+    {
+      "index": 113.5,
+      "n_products": 31,
+      "change_pct": -12.6,
+      "year": 2024,
+      "month": 4,
+      "yoy_pct": null
+    },
+    {
+      "index": 99.0,
+      "n_products": 31,
+      "change_pct": -12.8,
+      "year": 2024,
+      "month": 5,
+      "yoy_pct": null
+    },
+    {
+      "index": 101.0,
+      "n_products": 31,
+      "change_pct": 2.0,
+      "year": 2024,
+      "month": 6,
+      "yoy_pct": null
+    },
+    {
+      "index": 94.7,
+      "n_products": 31,
+      "change_pct": -6.2,
+      "year": 2024,
+      "month": 7,
+      "yoy_pct": null
+    },
+    {
+      "index": 98.0,
+      "n_products": 30,
+      "change_pct": 3.5,
+      "year": 2024,
+      "month": 8,
+      "yoy_pct": null
+    },
+    {
+      "index": 119.9,
+      "n_products": 31,
+      "change_pct": 22.3,
+      "year": 2024,
+      "month": 9,
+      "yoy_pct": null
+    },
+    {
+      "index": 100.5,
+      "n_products": 31,
+      "change_pct": -16.2,
+      "year": 2024,
+      "month": 10,
+      "yoy_pct": null
+    },
+    {
+      "index": 105.7,
+      "n_products": 31,
+      "change_pct": 5.2,
+      "year": 2024,
+      "month": 11,
+      "yoy_pct": null
+    },
+    {
+      "index": 96.3,
+      "n_products": 31,
+      "change_pct": -8.9,
+      "year": 2024,
+      "month": 12,
+      "yoy_pct": null
+    },
+    {
+      "index": 104.7,
+      "n_products": 31,
+      "change_pct": 8.7,
+      "year": 2025,
+      "month": 1,
+      "yoy_pct": 4.7
+    },
+    {
+      "index": 104.0,
+      "n_products": 31,
+      "change_pct": -0.7,
+      "year": 2025,
+      "month": 2,
+      "yoy_pct": -21.8
+    },
+    {
+      "index": 111.8,
+      "n_products": 31,
+      "change_pct": 7.5,
+      "year": 2025,
+      "month": 3,
+      "yoy_pct": -13.9
+    },
+    {
+      "index": 92.4,
+      "n_products": 31,
+      "change_pct": -17.4,
+      "year": 2025,
+      "month": 4,
+      "yoy_pct": -18.6
+    },
+    {
+      "index": 79.1,
+      "n_products": 31,
+      "change_pct": -14.4,
+      "year": 2025,
+      "month": 5,
+      "yoy_pct": -20.1
+    },
+    {
+      "index": 98.9,
+      "n_products": 31,
+      "change_pct": 25.0,
+      "year": 2025,
+      "month": 6,
+      "yoy_pct": -2.1
+    },
+    {
+      "index": 84.9,
+      "n_products": 31,
+      "change_pct": -14.2,
+      "year": 2025,
+      "month": 7,
+      "yoy_pct": -10.3
+    },
+    {
+      "index": 99.5,
+      "n_products": 30,
+      "change_pct": 17.2,
+      "year": 2025,
+      "month": 8,
+      "yoy_pct": 1.5
+    },
+    {
+      "index": 106.1,
+      "n_products": 31,
+      "change_pct": 6.6,
+      "year": 2025,
+      "month": 9,
+      "yoy_pct": -11.5
+    },
+    {
+      "index": 95.0,
+      "n_products": 31,
+      "change_pct": -10.5,
+      "year": 2025,
+      "month": 10,
+      "yoy_pct": -5.5
+    },
+    {
+      "index": 102.2,
+      "n_products": 31,
+      "change_pct": 7.6,
+      "year": 2025,
+      "month": 11,
+      "yoy_pct": -3.3
+    },
+    {
+      "index": 87.5,
+      "n_products": 31,
+      "change_pct": -14.4,
+      "year": 2025,
+      "month": 12,
+      "yoy_pct": -9.1
+    },
+    {
+      "index": 97.8,
+      "n_products": 31,
+      "change_pct": 11.8,
+      "year": 2026,
+      "month": 1,
+      "yoy_pct": -6.6
+    },
+    {
+      "index": 104.1,
+      "n_products": 31,
+      "change_pct": 6.4,
+      "year": 2026,
+      "month": 2,
+      "yoy_pct": 0.1
+    },
+    {
+      "index": 80.9,
+      "n_products": 31,
+      "change_pct": -22.3,
+      "year": 2026,
+      "month": 3,
+      "yoy_pct": -27.6
+    },
+    {
+      "index": 78.5,
+      "n_products": 31,
+      "change_pct": -3.0,
+      "year": 2026,
+      "month": 4,
+      "yoy_pct": -15.0
+    },
+    {
+      "index": 78.1,
+      "n_products": 31,
+      "change_pct": -0.5,
+      "year": 2026,
+      "month": 5,
+      "yoy_pct": -1.3
+    },
+    {
+      "index": 101.0,
+      "n_products": 31,
+      "change_pct": 29.3,
+      "year": 2026,
+      "month": 6,
+      "yoy_pct": 2.1
+    },
+    {
+      "index": 97.7,
+      "n_products": 30,
+      "change_pct": -3.3,
+      "year": 2026,
+      "month": 7,
+      "yoy_pct": 15.1
+    },
+    {
+      "index": 91.8,
+      "n_products": 31,
+      "change_pct": -6.0,
+      "year": 2026,
+      "month": 8,
+      "yoy_pct": -7.7
+    }
+  ],
+  "monthly_basket_size": 31,
+  "contributors": {
+    "target_year": 2025,
+    "is_partial": false,
+    "sum_check_pt": 44.4,
+    "top_up": [
+      {
+        "product": "사과",
+        "contribution_pt": 10.47,
+        "price_change_pct": 113.6,
+        "base_price": 2183,
+        "latest_price": 4662
+      },
+      {
+        "product": "감귤",
+        "contribution_pt": 3.67,
+        "price_change_pct": 58.3,
+        "base_price": 2130,
+        "latest_price": 3371
+      },
+      {
+        "product": "딸기",
+        "contribution_pt": 3.12,
+        "price_change_pct": 55.8,
+        "base_price": 6717,
+        "latest_price": 10464
+      },
+      {
+        "product": "양파",
+        "contribution_pt": 2.88,
+        "price_change_pct": 58.7,
+        "base_price": 647,
+        "latest_price": 1027
+      },
+      {
+        "product": "배추",
+        "contribution_pt": 2.69,
+        "price_change_pct": 95.1,
+        "base_price": 552,
+        "latest_price": 1077
+      }
+    ],
+    "top_down": [
+      {
+        "product": "감자",
+        "contribution_pt": -0.52,
+        "price_change_pct": -12.8,
+        "base_price": 1689,
+        "latest_price": 1473
+      },
+      {
+        "product": "고구마",
+        "contribution_pt": -0.43,
+        "price_change_pct": -14.1,
+        "base_price": 2287,
+        "latest_price": 1964
+      },
+      {
+        "product": "대파",
+        "contribution_pt": 0.06,
+        "price_change_pct": 1.7,
+        "base_price": 1454,
+        "latest_price": 1479
+      },
+      {
+        "product": "만감",
+        "contribution_pt": 0.07,
+        "price_change_pct": 6.2,
+        "base_price": 4545,
+        "latest_price": 4826
+      },
+      {
+        "product": "표고버섯",
+        "contribution_pt": 0.11,
+        "price_change_pct": 8.1,
+        "base_price": 5475,
+        "latest_price": 5920
+      }
+    ]
+  },
+  "caveats": [
+    "주요 32품목 공통 바스켓 — 전체 도매 거래의 부분집합(대표 품목 한정)",
+    "단일 기준연도(2018=100) — 5년 rolling rebase는 후속(v2)",
+    "진행 중 연도(반기)는 계절적으로 전체연도보다 높음(완전연도 실측 +8~12%) → 체감물가 대표는 최근 완전연도로, 반기는 '전년 같은 기간 대비'로 해석",
+    "월간 지수는 비계절조정 → 전월대비보다 전년동월(YoY) 비교 권장",
+    "입력 avg_price는 물량가중 원/kg(semantic layer 정합) — 품목간 단위는 지수 비율로 무차원"
+  ]
+}
