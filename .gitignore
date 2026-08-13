@@ -1,0 +1,30 @@
+# 비밀
+*.env
+.env*
+token.json
+*.key
+*.pem
+secrets/
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 노드
+node_modules/
+dist/
+build/
+.next/
+
+# 편집기·OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 임시
+tmp/
+*.tmp
+*.log
