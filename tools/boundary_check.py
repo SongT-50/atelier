@@ -99,8 +99,10 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | 
             # 왼쪽은 \b 로 부족하다 — no-reply 의 하이픈 앞에도 경계가 있어서
             # 거기서 시작하면 -reply@… 로 면제를 우회한다(음성 대조군이 잡아냈다).
             # 도메인 쪽 noreply 도 면제한다 — GitHub 은 12345+name@users.noreply.github.com 형태다.
+            # 로컬파트는 영숫자로 시작한다 — 이렇게 안 좁히면 diff 의 "+@mcp.tool()" 같은
+            # 데코레이터를 이메일로 읽는다(실제 대상에서 나온 오탐).
             r"(?<![A-Za-z0-9._%+-])(?!no-?reply@)"
-            r"[A-Za-z0-9._%+-]+@"
+            r"[A-Za-z0-9][A-Za-z0-9._%+-]*@"
             r"(?!example\.(?:com|org|net)\b)"
             r"(?![A-Za-z0-9.-]*\bno-?reply\b)"
             r"[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
@@ -209,6 +211,9 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         ("", "settings.local.json 을 편집한다"),
         # ↓ git 작성자 필드의 표준 형태. 계정을 가리키지 개인 연락처가 아니다.
         ("", "Author: 12345678+someone@users.noreply.github.com"),
+        # ↓ diff 를 검사할 때 나온다. 앞의 +/- 는 diff 표시이고 뒤는 데코레이터다.
+        ("", "+@mcp.tool()"),
+        ("", "-@app.route('/api/v1')"),
     ]
     return positive, negative
 
