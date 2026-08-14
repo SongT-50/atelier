@@ -1,0 +1,10 @@
+#!/bin/sh
+# 경계 검사 — 통과한 것만 커밋된다.
+# 워킹트리가 아니라 **인덱스**를 본다(add 뒤에 또 고쳤을 수 있으므로).
+PY=$(command -v python3 || command -v python)
+if [ -z "$PY" ]; then
+    echo "✗ python 을 찾지 못해 경계 검사를 못 돌렸다."
+    echo "  검사를 안 돌린 것은 '깨끗함'이 아니다. 커밋을 막는다."
+    exit 1
+fi
+exec "$PY" tools/boundary_check.py --staged

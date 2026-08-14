@@ -1,0 +1,8 @@
+#!/bin/sh
+# 커밋 메시지도 새는 길이다. pre-commit 은 아직 메시지를 볼 수 없어서 따로 건다.
+PY=$(command -v python3 || command -v python)
+if [ -z "$PY" ]; then
+    echo "✗ python 을 찾지 못해 커밋 메시지 검사를 못 돌렸다. 커밋을 막는다."
+    exit 1
+fi
+exec "$PY" tools/boundary_check.py --message "$1"
