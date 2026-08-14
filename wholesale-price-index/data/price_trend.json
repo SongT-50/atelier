@@ -1,0 +1,8696 @@
+{
+  "products": {
+    "감귤": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2130,
+          "volume": 66492239.7,
+          "trade_count": 80888,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1885,
+          "volume": 59340677.9,
+          "trade_count": 69784,
+          "change_pct": -11.5
+        },
+        {
+          "year": 2020,
+          "avg_price": 1782,
+          "volume": 55284533.1,
+          "trade_count": 64521,
+          "change_pct": -5.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 2101,
+          "volume": 55568610.6,
+          "trade_count": 69775,
+          "change_pct": 17.9
+        },
+        {
+          "year": 2022,
+          "avg_price": 2219,
+          "volume": 47012703.2,
+          "trade_count": 57391,
+          "change_pct": 5.6
+        },
+        {
+          "year": 2023,
+          "avg_price": 2554,
+          "volume": 54495706.1,
+          "trade_count": 63996,
+          "change_pct": 15.1
+        },
+        {
+          "year": 2024,
+          "avg_price": 3551,
+          "volume": 45767735.1,
+          "trade_count": 59834,
+          "change_pct": 39.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 3371,
+          "volume": 37956638.9,
+          "trade_count": 47444,
+          "change_pct": -5.1
+        },
+        {
+          "year": 2026,
+          "avg_price": 3225,
+          "volume": 27493756.9,
+          "trade_count": 26950,
+          "change_pct": -28.1,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 3152,
+          "volume": 10152846.8
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 6097,
+          "volume": 7278212.4
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 6794,
+          "volume": 1394960.7
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 6783,
+          "volume": 587251.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5412,
+          "volume": 207998.2
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 7800,
+          "volume": 302989.6
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 5174,
+          "volume": 464334.1
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 5993,
+          "volume": 604179.7
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5622,
+          "volume": 1268796.9
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2524,
+          "volume": 3989682.9
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 2006,
+          "volume": 8036830.9
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2601,
+          "volume": 11479652.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 3456,
+          "volume": 4866890.7
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4554,
+          "volume": 4956598.5
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 5519,
+          "volume": 1570240.6
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 4995,
+          "volume": 1217433.4
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3908,
+          "volume": 479306.5
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 8575,
+          "volume": 282135.1
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 5530,
+          "volume": 436133.0
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 6583,
+          "volume": 501298.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5988,
+          "volume": 820673.2
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3335,
+          "volume": 2103113.3
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2192,
+          "volume": 8751004.4
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2730,
+          "volume": 11971812.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2822,
+          "volume": 10830954.8
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3229,
+          "volume": 12163715.5
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3123,
+          "volume": 2811996.9
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 4304,
+          "volume": 302216.6
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 4352,
+          "volume": 152033.4
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 8976,
+          "volume": 195502.6
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 6474,
+          "volume": 330470.7
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 5923,
+          "volume": 706866.4
+        }
+      ]
+    },
+    "감자": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1689,
+          "volume": 54617299.2,
+          "trade_count": 50256,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1003,
+          "volume": 61406227.5,
+          "trade_count": 48341,
+          "change_pct": -40.6
+        },
+        {
+          "year": 2020,
+          "avg_price": 1068,
+          "volume": 57163333.8,
+          "trade_count": 42706,
+          "change_pct": 6.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 1175,
+          "volume": 54712755.3,
+          "trade_count": 38000,
+          "change_pct": 10.0
+        },
+        {
+          "year": 2022,
+          "avg_price": 1653,
+          "volume": 47193074.0,
+          "trade_count": 37362,
+          "change_pct": 40.7
+        },
+        {
+          "year": 2023,
+          "avg_price": 1782,
+          "volume": 56676852.0,
+          "trade_count": 43883,
+          "change_pct": 7.8
+        },
+        {
+          "year": 2024,
+          "avg_price": 1448,
+          "volume": 57675671.4,
+          "trade_count": 43726,
+          "change_pct": -18.7
+        },
+        {
+          "year": 2025,
+          "avg_price": 1473,
+          "volume": 51083447.1,
+          "trade_count": 39065,
+          "change_pct": 1.7
+        },
+        {
+          "year": 2026,
+          "avg_price": 1854,
+          "volume": 38302821.5,
+          "trade_count": 25137,
+          "change_pct": 26.2,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 1700,
+          "volume": 4002286.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 1720,
+          "volume": 3328306.5
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 1976,
+          "volume": 3656576.5
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2205,
+          "volume": 4317948.9
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 2380,
+          "volume": 5466455.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1122,
+          "volume": 10909000.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 974,
+          "volume": 5265470.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 1114,
+          "volume": 3412184.1
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 1133,
+          "volume": 4681908.5
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 1118,
+          "volume": 4859583.7
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1139,
+          "volume": 3708893.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1248,
+          "volume": 4067058.5
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1537,
+          "volume": 1476985.5
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1613,
+          "volume": 3764653.7
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1665,
+          "volume": 4287907.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1747,
+          "volume": 4631307.7
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2208,
+          "volume": 5044066.8
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1240,
+          "volume": 9981325.8
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 869,
+          "volume": 6137735.3
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1306,
+          "volume": 3366683.8
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 1444,
+          "volume": 3957116.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1471,
+          "volume": 1201706.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1437,
+          "volume": 3425841.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1582,
+          "volume": 3808116.7
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2037,
+          "volume": 3274086.4
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2055,
+          "volume": 4342987.3
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2261,
+          "volume": 3999962.1
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2932,
+          "volume": 3575236.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2869,
+          "volume": 5313127.5
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1189,
+          "volume": 8319729.4
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1106,
+          "volume": 4585520.1
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1160,
+          "volume": 4892172.7
+        }
+      ]
+    },
+    "고구마": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2287,
+          "volume": 30013724.4,
+          "trade_count": 47486,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1770,
+          "volume": 33098337.9,
+          "trade_count": 47802,
+          "change_pct": -22.6
+        },
+        {
+          "year": 2020,
+          "avg_price": 2296,
+          "volume": 35278314.9,
+          "trade_count": 44712,
+          "change_pct": 29.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 2469,
+          "volume": 34445189.1,
+          "trade_count": 46586,
+          "change_pct": 7.5
+        },
+        {
+          "year": 2022,
+          "avg_price": 1607,
+          "volume": 36791248.3,
+          "trade_count": 43513,
+          "change_pct": -34.9
+        },
+        {
+          "year": 2023,
+          "avg_price": 2005,
+          "volume": 35664382.0,
+          "trade_count": 42511,
+          "change_pct": 24.8
+        },
+        {
+          "year": 2024,
+          "avg_price": 2160,
+          "volume": 34135836.5,
+          "trade_count": 42132,
+          "change_pct": 7.7
+        },
+        {
+          "year": 2025,
+          "avg_price": 1964,
+          "volume": 29724374.6,
+          "trade_count": 35942,
+          "change_pct": -9.1
+        },
+        {
+          "year": 2026,
+          "avg_price": 2161,
+          "volume": 21468897.3,
+          "trade_count": 19978,
+          "change_pct": 6.2,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 2312,
+          "volume": 3454912.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 2259,
+          "volume": 3254254.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 2449,
+          "volume": 3075720.0
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2496,
+          "volume": 2885821.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3030,
+          "volume": 2018800.0
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2633,
+          "volume": 1523645.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1900,
+          "volume": 1550325.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 1846,
+          "volume": 1873991.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 1913,
+          "volume": 4435631.0
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 1783,
+          "volume": 4080384.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1813,
+          "volume": 2996503.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1991,
+          "volume": 2985850.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 2022,
+          "volume": 1060307.4
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2112,
+          "volume": 3338136.3
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1969,
+          "volume": 3329141.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1800,
+          "volume": 3129228.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2032,
+          "volume": 2338532.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2181,
+          "volume": 2062804.0
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1882,
+          "volume": 1304398.5
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 2484,
+          "volume": 1371569.5
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2061,
+          "volume": 3513259.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1658,
+          "volume": 1030373.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1748,
+          "volume": 3617849.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1825,
+          "volume": 3628775.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2203,
+          "volume": 3025904.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2034,
+          "volume": 5044983.0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2048,
+          "volume": 3520964.5
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2014,
+          "volume": 2853876.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2422,
+          "volume": 2477879.8
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2346,
+          "volume": 1409494.0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 2245,
+          "volume": 1206850.0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2332,
+          "volume": 1928946.0
+        }
+      ]
+    },
+    "깻잎": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 5047,
+          "volume": 7971854.2,
+          "trade_count": 51716,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 5338,
+          "volume": 7529549.0,
+          "trade_count": 47759,
+          "change_pct": 5.8
+        },
+        {
+          "year": 2020,
+          "avg_price": 5500,
+          "volume": 7262687.8,
+          "trade_count": 45737,
+          "change_pct": 3.0
+        },
+        {
+          "year": 2021,
+          "avg_price": 6394,
+          "volume": 6935302.3,
+          "trade_count": 43354,
+          "change_pct": 16.3
+        },
+        {
+          "year": 2022,
+          "avg_price": 7570,
+          "volume": 6386356.5,
+          "trade_count": 44269,
+          "change_pct": 18.4
+        },
+        {
+          "year": 2023,
+          "avg_price": 7278,
+          "volume": 6972220.8,
+          "trade_count": 49734,
+          "change_pct": -3.9
+        },
+        {
+          "year": 2024,
+          "avg_price": 7901,
+          "volume": 7100973.9,
+          "trade_count": 49592,
+          "change_pct": 8.6
+        },
+        {
+          "year": 2025,
+          "avg_price": 7248,
+          "volume": 6600176.1,
+          "trade_count": 46314,
+          "change_pct": -8.3
+        },
+        {
+          "year": 2026,
+          "avg_price": 6339,
+          "volume": 4383209.8,
+          "trade_count": 26958,
+          "change_pct": -4.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 11294,
+          "volume": 388400.1
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 11619,
+          "volume": 600067.2
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 11379,
+          "volume": 466683.6
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 6471,
+          "volume": 617562.4
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5645,
+          "volume": 646426.2
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 3627,
+          "volume": 717370.9
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 3191,
+          "volume": 792368.1
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 8155,
+          "volume": 577976.1
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 10765,
+          "volume": 630243.6
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 13035,
+          "volume": 576928.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 7329,
+          "volume": 610535.3
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 6642,
+          "volume": 476412.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 11376,
+          "volume": 171302.7
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 7179,
+          "volume": 552594.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 7892,
+          "volume": 573030.6
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 5976,
+          "volume": 590327.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 7220,
+          "volume": 574321.7
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 4517,
+          "volume": 734772.0
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 4092,
+          "volume": 681743.3
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 9260,
+          "volume": 580374.7
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 8992,
+          "volume": 649192.5
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 10897,
+          "volume": 445069.4
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 8951,
+          "volume": 537834.4
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 5382,
+          "volume": 509613.6
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 12435,
+          "volume": 346659.5
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 8822,
+          "volume": 505589.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 5660,
+          "volume": 563295.5
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 4961,
+          "volume": 559396.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 6708,
+          "volume": 583245.2
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 4243,
+          "volume": 498702.5
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 3886,
+          "volume": 634264.9
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 6585,
+          "volume": 692056.5
+        }
+      ]
+    },
+    "단감": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1864,
+          "volume": 14754276.8,
+          "trade_count": 42492,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1943,
+          "volume": 13835494.7,
+          "trade_count": 37130,
+          "change_pct": 4.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 1956,
+          "volume": 13641827.2,
+          "trade_count": 33379,
+          "change_pct": 0.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 2643,
+          "volume": 12659013.9,
+          "trade_count": 37017,
+          "change_pct": 35.1
+        },
+        {
+          "year": 2022,
+          "avg_price": 2159,
+          "volume": 14649082.6,
+          "trade_count": 40897,
+          "change_pct": -18.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 2735,
+          "volume": 11950124.0,
+          "trade_count": 34843,
+          "change_pct": 26.7
+        },
+        {
+          "year": 2024,
+          "avg_price": 2735,
+          "volume": 12783745.1,
+          "trade_count": 35931,
+          "change_pct": 0.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 2387,
+          "volume": 12531229.1,
+          "trade_count": 32546,
+          "change_pct": -12.7
+        },
+        {
+          "year": 2026,
+          "avg_price": 2844,
+          "volume": 3438880.7,
+          "trade_count": 8924,
+          "change_pct": -9.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 4723,
+          "volume": 785316.2
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 5564,
+          "volume": 928409.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5770,
+          "volume": 200629.0
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5152,
+          "volume": 21420.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 4197,
+          "volume": 680.0
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 6688,
+          "volume": 10.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 2842,
+          "volume": 640.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 3661,
+          "volume": 123794.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 4004,
+          "volume": 1003104.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 2027,
+          "volume": 6589759.8
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2235,
+          "volume": 3129982.2
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 2724,
+          "volume": 766775.7
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 3180,
+          "volume": 1121898.2
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3563,
+          "volume": 630560.0
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3320,
+          "volume": 65347.0
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 1879,
+          "volume": 310.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 4402,
+          "volume": 600.0
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 3837,
+          "volume": 130.0
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 12500,
+          "volume": 10.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5002,
+          "volume": 21419.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3640,
+          "volume": 1235078.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1849,
+          "volume": 6073702.7
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2279,
+          "volume": 2615398.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2987,
+          "volume": 1106432.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3003,
+          "volume": 1420348.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2449,
+          "volume": 731234.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2325,
+          "volume": 174810.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2027,
+          "volume": 5660.0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 7767,
+          "volume": 180.0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2380,
+          "volume": 216.0
+        }
+      ]
+    },
+    "대파": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1454,
+          "volume": 57967845.1,
+          "trade_count": 36898,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1159,
+          "volume": 55736042.3,
+          "trade_count": 37742,
+          "change_pct": -20.3
+        },
+        {
+          "year": 2020,
+          "avg_price": 1415,
+          "volume": 53644212.8,
+          "trade_count": 35012,
+          "change_pct": 22.1
+        },
+        {
+          "year": 2021,
+          "avg_price": 2280,
+          "volume": 48775838.8,
+          "trade_count": 32116,
+          "change_pct": 61.1
+        },
+        {
+          "year": 2022,
+          "avg_price": 1493,
+          "volume": 51568690.4,
+          "trade_count": 29619,
+          "change_pct": -34.5
+        },
+        {
+          "year": 2023,
+          "avg_price": 1815,
+          "volume": 58297455.0,
+          "trade_count": 32178,
+          "change_pct": 21.6
+        },
+        {
+          "year": 2024,
+          "avg_price": 2026,
+          "volume": 58593762.8,
+          "trade_count": 32677,
+          "change_pct": 11.6
+        },
+        {
+          "year": 2025,
+          "avg_price": 1479,
+          "volume": 53762198.3,
+          "trade_count": 29463,
+          "change_pct": -27.0
+        },
+        {
+          "year": 2026,
+          "avg_price": 1374,
+          "volume": 36054245.2,
+          "trade_count": 15501,
+          "change_pct": -1.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 2852,
+          "volume": 4998086.7
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 3183,
+          "volume": 5848891.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 2750,
+          "volume": 5529267.9
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 1766,
+          "volume": 5137410.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1928,
+          "volume": 4700804.9
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1261,
+          "volume": 4496324.1
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1275,
+          "volume": 4403436.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 1654,
+          "volume": 3722457.8
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 1609,
+          "volume": 4959010.8
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 1758,
+          "volume": 4837131.9
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1605,
+          "volume": 4841641.9
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2108,
+          "volume": 5119298.7
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1880,
+          "volume": 2042087.2
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1741,
+          "volume": 5240373.9
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 2103,
+          "volume": 5028249.5
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1044,
+          "volume": 5529027.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 921,
+          "volume": 4745661.5
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1028,
+          "volume": 4724182.7
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 906,
+          "volume": 4075481.7
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1778,
+          "volume": 4016303.3
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 1506,
+          "volume": 4663320.9
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1854,
+          "volume": 3419924.4
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1525,
+          "volume": 5039427.2
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1736,
+          "volume": 5238158.6
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 1793,
+          "volume": 4303476.7
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 1498,
+          "volume": 5791209.6
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 1351,
+          "volume": 5196432.4
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 727,
+          "volume": 4372481.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 1125,
+          "volume": 4317413.8
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1414,
+          "volume": 3852594.7
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1582,
+          "volume": 3811506.6
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1500,
+          "volume": 4409130.3
+        }
+      ]
+    },
+    "딸기": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 6717,
+          "volume": 18748019.1,
+          "trade_count": 98028,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 6743,
+          "volume": 19853919.8,
+          "trade_count": 98433,
+          "change_pct": 0.4
+        },
+        {
+          "year": 2020,
+          "avg_price": 7339,
+          "volume": 17665893.7,
+          "trade_count": 103173,
+          "change_pct": 8.8
+        },
+        {
+          "year": 2021,
+          "avg_price": 8353,
+          "volume": 17354405.4,
+          "trade_count": 97332,
+          "change_pct": 13.8
+        },
+        {
+          "year": 2022,
+          "avg_price": 9349,
+          "volume": 14590404.3,
+          "trade_count": 87003,
+          "change_pct": 11.9
+        },
+        {
+          "year": 2023,
+          "avg_price": 9536,
+          "volume": 16929300.9,
+          "trade_count": 102072,
+          "change_pct": 2.0
+        },
+        {
+          "year": 2024,
+          "avg_price": 11442,
+          "volume": 15061112.6,
+          "trade_count": 99770,
+          "change_pct": 20.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 10464,
+          "volume": 15974770.0,
+          "trade_count": 102423,
+          "change_pct": -8.5
+        },
+        {
+          "year": 2026,
+          "avg_price": 8818,
+          "volume": 16211894.5,
+          "trade_count": 84022,
+          "change_pct": -8.2,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 13079,
+          "volume": 2567103.8
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 15665,
+          "volume": 2398987.2
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 10522,
+          "volume": 2959634.7
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 7576,
+          "volume": 3834375.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 6515,
+          "volume": 1611840.0
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 10914,
+          "volume": 361661.1
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 14762,
+          "volume": 3320.9
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 5818,
+          "volume": 4488.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 9587,
+          "volume": 2407.1
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 12559,
+          "volume": 655.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 31428,
+          "volume": 22202.1
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 19879,
+          "volume": 1294437.8
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 14296,
+          "volume": 1353971.6
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 11007,
+          "volume": 3245909.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 9304,
+          "volume": 4181935.1
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 7742,
+          "volume": 3506982.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 7115,
+          "volume": 1479967.4
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 10986,
+          "volume": 407692.9
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 10540,
+          "volume": 2532.1
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 5187,
+          "volume": 4186.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 9338,
+          "volume": 1791.3
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 8821,
+          "volume": 391.7
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 27975,
+          "volume": 76379.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 16810,
+          "volume": 1713031.1
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 15747,
+          "volume": 1823912.1
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 12660,
+          "volume": 2929083.4
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 7600,
+          "volume": 4680545.1
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5742,
+          "volume": 4514695.2
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 6455,
+          "volume": 1986623.4
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 10155,
+          "volume": 268654.8
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 13591,
+          "volume": 4828.8
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 9364,
+          "volume": 3551.6
+        }
+      ]
+    },
+    "마늘": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3797,
+          "volume": 13201079.7,
+          "trade_count": 34467,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2777,
+          "volume": 15700526.8,
+          "trade_count": 33786,
+          "change_pct": -26.9
+        },
+        {
+          "year": 2020,
+          "avg_price": 3054,
+          "volume": 14075816.8,
+          "trade_count": 32574,
+          "change_pct": 10.0
+        },
+        {
+          "year": 2021,
+          "avg_price": 5036,
+          "volume": 11560859.6,
+          "trade_count": 27533,
+          "change_pct": 64.9
+        },
+        {
+          "year": 2022,
+          "avg_price": 5974,
+          "volume": 9702565.9,
+          "trade_count": 26867,
+          "change_pct": 18.6
+        },
+        {
+          "year": 2023,
+          "avg_price": 4714,
+          "volume": 11288077.2,
+          "trade_count": 33601,
+          "change_pct": -21.1
+        },
+        {
+          "year": 2024,
+          "avg_price": 4420,
+          "volume": 12017556.6,
+          "trade_count": 34949,
+          "change_pct": -6.2
+        },
+        {
+          "year": 2025,
+          "avg_price": 4926,
+          "volume": 11744139.2,
+          "trade_count": 32953,
+          "change_pct": 11.4
+        },
+        {
+          "year": 2026,
+          "avg_price": 4471,
+          "volume": 9504039.0,
+          "trade_count": 21095,
+          "change_pct": -6.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5085,
+          "volume": 524002.4
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 5073,
+          "volume": 717095.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 4606,
+          "volume": 696031.4
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 4624,
+          "volume": 793573.6
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3637,
+          "volume": 1575176.5
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 3230,
+          "volume": 2533900.4
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 4429,
+          "volume": 885037.5
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 4972,
+          "volume": 730151.1
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5237,
+          "volume": 848138.8
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 5433,
+          "volume": 713871.8
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 5478,
+          "volume": 926438.9
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 4731,
+          "volume": 1074138.9
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 4344,
+          "volume": 456841.1
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 5884,
+          "volume": 577836.3
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 5968,
+          "volume": 653949.2
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 5736,
+          "volume": 786739.4
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 4492,
+          "volume": 1398758.7
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 4101,
+          "volume": 2693587.5
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 4513,
+          "volume": 1228716.5
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 5553,
+          "volume": 786010.2
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5391,
+          "volume": 709699.4
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 6373,
+          "volume": 479176.3
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4767,
+          "volume": 1048672.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 5341,
+          "volume": 924151.6
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 6545,
+          "volume": 492470.8
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 6349,
+          "volume": 690522.3
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 5963,
+          "volume": 664144.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5965,
+          "volume": 696651.8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3405,
+          "volume": 2074578.8
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3091,
+          "volume": 2588152.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 4250,
+          "volume": 969677.9
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 5712,
+          "volume": 1327841.1
+        }
+      ]
+    },
+    "만감": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 4545,
+          "volume": 5437439.7,
+          "trade_count": 23842,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3947,
+          "volume": 3165673.9,
+          "trade_count": 14491,
+          "change_pct": -13.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 3693,
+          "volume": 4479585.3,
+          "trade_count": 20621,
+          "change_pct": -6.4
+        },
+        {
+          "year": 2021,
+          "avg_price": 5658,
+          "volume": 4959443.3,
+          "trade_count": 20799,
+          "change_pct": 53.2
+        },
+        {
+          "year": 2022,
+          "avg_price": 4704,
+          "volume": 3334829.2,
+          "trade_count": 14824,
+          "change_pct": -16.9
+        },
+        {
+          "year": 2023,
+          "avg_price": 4543,
+          "volume": 4599444.3,
+          "trade_count": 19908,
+          "change_pct": -3.4
+        },
+        {
+          "year": 2024,
+          "avg_price": 6159,
+          "volume": 5611489.0,
+          "trade_count": 21262,
+          "change_pct": 35.6
+        },
+        {
+          "year": 2025,
+          "avg_price": 4826,
+          "volume": 2663717.5,
+          "trade_count": 11427,
+          "change_pct": -21.6
+        },
+        {
+          "year": 2026,
+          "avg_price": 5245,
+          "volume": 11374244.1,
+          "trade_count": 27787,
+          "change_pct": 8.4,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5798,
+          "volume": 964891.6
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 6431,
+          "volume": 3493628.2
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5624,
+          "volume": 805590.1
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 6283,
+          "volume": 165475.2
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5246,
+          "volume": 73262.5
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 989,
+          "volume": 378.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 4527,
+          "volume": 15.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 8215,
+          "volume": 660.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5879,
+          "volume": 3788.0
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 5523,
+          "volume": 2716.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 4412,
+          "volume": 14038.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 5090,
+          "volume": 87046.4
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 6123,
+          "volume": 340918.9
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4778,
+          "volume": 714251.3
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 4652,
+          "volume": 827755.6
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 4707,
+          "volume": 513896.4
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3833,
+          "volume": 171828.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 3810,
+          "volume": 3689.0
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2014,
+          "volume": 657.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5228,
+          "volume": 1947.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 6046,
+          "volume": 3485.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 3060,
+          "volume": 14756.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 4752,
+          "volume": 70533.3
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 5363,
+          "volume": 957099.9
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 5799,
+          "volume": 6858573.9
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3744,
+          "volume": 1748519.2
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 4586,
+          "volume": 1338330.6
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 4410,
+          "volume": 444811.5
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3747,
+          "volume": 26525.0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 12667,
+          "volume": 204.0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 6969,
+          "volume": 180.0
+        }
+      ]
+    },
+    "무": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 617,
+          "volume": 130723663.2,
+          "trade_count": 30524,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 480,
+          "volume": 119570442.5,
+          "trade_count": 27106,
+          "change_pct": -22.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 542,
+          "volume": 122107867.7,
+          "trade_count": 27501,
+          "change_pct": 12.9
+        },
+        {
+          "year": 2021,
+          "avg_price": 404,
+          "volume": 120403630.0,
+          "trade_count": 21998,
+          "change_pct": -25.5
+        },
+        {
+          "year": 2022,
+          "avg_price": 716,
+          "volume": 115973707.3,
+          "trade_count": 23935,
+          "change_pct": 77.2
+        },
+        {
+          "year": 2023,
+          "avg_price": 504,
+          "volume": 121484506.4,
+          "trade_count": 24850,
+          "change_pct": -29.6
+        },
+        {
+          "year": 2024,
+          "avg_price": 724,
+          "volume": 129342153.6,
+          "trade_count": 26500,
+          "change_pct": 43.7
+        },
+        {
+          "year": 2025,
+          "avg_price": 734,
+          "volume": 106004582.5,
+          "trade_count": 22803,
+          "change_pct": 1.4
+        },
+        {
+          "year": 2026,
+          "avg_price": 569,
+          "volume": 69310114.5,
+          "trade_count": 11178,
+          "change_pct": -37.4,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 423,
+          "volume": 9018234.8
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 487,
+          "volume": 11799488.2
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 513,
+          "volume": 10617047.5
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 552,
+          "volume": 10201390.6
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 703,
+          "volume": 8190707.0
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 644,
+          "volume": 7756023.8
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 681,
+          "volume": 8019590.6
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 808,
+          "volume": 8405924.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 950,
+          "volume": 15034195.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 965,
+          "volume": 9923683.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 740,
+          "volume": 14822718.7
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 974,
+          "volume": 15553150.1
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1339,
+          "volume": 2885044.2
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1287,
+          "volume": 7118562.2
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1425,
+          "volume": 8288522.5
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1042,
+          "volume": 10845465.9
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 841,
+          "volume": 8434862.7
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 549,
+          "volume": 8564508.6
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 392,
+          "volume": 6909789.0
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 583,
+          "volume": 7339249.4
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 491,
+          "volume": 9932259.3
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 459,
+          "volume": 6888386.8
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 493,
+          "volume": 14005642.3
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 540,
+          "volume": 14792289.4
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 565,
+          "volume": 8326090.4
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 646,
+          "volume": 12446411.1
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 656,
+          "volume": 10182561.9
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 445,
+          "volume": 8802245.3
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 608,
+          "volume": 8304965.3
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 553,
+          "volume": 7236770.6
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 559,
+          "volume": 6058088.9
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 462,
+          "volume": 7952981.1
+        }
+      ]
+    },
+    "바나나": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1533,
+          "volume": 51478110.6,
+          "trade_count": 16922,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1607,
+          "volume": 41251986.8,
+          "trade_count": 14917,
+          "change_pct": 4.8
+        },
+        {
+          "year": 2020,
+          "avg_price": 1595,
+          "volume": 39891717.0,
+          "trade_count": 15909,
+          "change_pct": -0.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 1566,
+          "volume": 38049407.8,
+          "trade_count": 16765,
+          "change_pct": -1.8
+        },
+        {
+          "year": 2022,
+          "avg_price": 1864,
+          "volume": 33216031.0,
+          "trade_count": 16945,
+          "change_pct": 19.0
+        },
+        {
+          "year": 2023,
+          "avg_price": 2031,
+          "volume": 34765114.8,
+          "trade_count": 19234,
+          "change_pct": 9.0
+        },
+        {
+          "year": 2024,
+          "avg_price": 1779,
+          "volume": 42035263.1,
+          "trade_count": 20993,
+          "change_pct": -12.4
+        },
+        {
+          "year": 2025,
+          "avg_price": 1756,
+          "volume": 36566367.1,
+          "trade_count": 19065,
+          "change_pct": -1.3
+        },
+        {
+          "year": 2026,
+          "avg_price": 2001,
+          "volume": 22184643.0,
+          "trade_count": 10805,
+          "change_pct": 15.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 1726,
+          "volume": 2454766.5
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 1980,
+          "volume": 3272244.8
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 2064,
+          "volume": 3218570.9
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2030,
+          "volume": 4511265.1
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1877,
+          "volume": 5118724.7
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1610,
+          "volume": 4662135.9
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1259,
+          "volume": 4113748.5
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 1431,
+          "volume": 3048830.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2375,
+          "volume": 2520653.8
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2030,
+          "volume": 2736199.6
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1778,
+          "volume": 3136804.9
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1386,
+          "volume": 3241318.3
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1314,
+          "volume": 1336896.9
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1557,
+          "volume": 3120888.7
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1784,
+          "volume": 3280190.4
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1678,
+          "volume": 4892795.7
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2040,
+          "volume": 4042743.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1942,
+          "volume": 3917073.1
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1603,
+          "volume": 3077696.2
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1560,
+          "volume": 2637467.8
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 1878,
+          "volume": 3117020.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1922,
+          "volume": 2007511.6
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1792,
+          "volume": 2633237.5
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1678,
+          "volume": 2502846.3
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 1822,
+          "volume": 1809357.7
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2016,
+          "volume": 2406426.8
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2104,
+          "volume": 2717339.4
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2281,
+          "volume": 2975790.1
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2145,
+          "volume": 3911743.2
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2051,
+          "volume": 2588056.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1770,
+          "volume": 2715947.7
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1712,
+          "volume": 3059981.7
+        }
+      ]
+    },
+    "방울토마토": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2841,
+          "volume": 19260289.1,
+          "trade_count": 74982,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3200,
+          "volume": 18265205.2,
+          "trade_count": 69101,
+          "change_pct": 12.6
+        },
+        {
+          "year": 2020,
+          "avg_price": 3574,
+          "volume": 16972439.2,
+          "trade_count": 62158,
+          "change_pct": 11.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 3845,
+          "volume": 17169317.7,
+          "trade_count": 61342,
+          "change_pct": 7.6
+        },
+        {
+          "year": 2022,
+          "avg_price": 4397,
+          "volume": 15201265.7,
+          "trade_count": 54384,
+          "change_pct": 14.4
+        },
+        {
+          "year": 2023,
+          "avg_price": 4594,
+          "volume": 16152289.9,
+          "trade_count": 57631,
+          "change_pct": 4.5
+        },
+        {
+          "year": 2024,
+          "avg_price": 5924,
+          "volume": 14907723.4,
+          "trade_count": 54643,
+          "change_pct": 29.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 4175,
+          "volume": 17140706.3,
+          "trade_count": 56723,
+          "change_pct": -29.5
+        },
+        {
+          "year": 2026,
+          "avg_price": 3704,
+          "volume": 13777578.3,
+          "trade_count": 38071,
+          "change_pct": -4.3,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 6023,
+          "volume": 869003.5
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 7009,
+          "volume": 1025377.4
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 9538,
+          "volume": 968744.4
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 10060,
+          "volume": 1059909.8
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 6532,
+          "volume": 1871300.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 3976,
+          "volume": 2455505.5
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 2791,
+          "volume": 1927206.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 4032,
+          "volume": 1173620.5
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 6097,
+          "volume": 1137439.2
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 7305,
+          "volume": 823854.7
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 6471,
+          "volume": 850146.4
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 7292,
+          "volume": 745615.6
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 4667,
+          "volume": 455252.4
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4344,
+          "volume": 1291924.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 5769,
+          "volume": 1291852.8
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 5444,
+          "volume": 1579079.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3197,
+          "volume": 2692606.3
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 3222,
+          "volume": 2969965.8
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2765,
+          "volume": 2036657.8
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 3943,
+          "volume": 1244026.2
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5866,
+          "volume": 1119235.8
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 4288,
+          "volume": 615109.5
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 6171,
+          "volume": 823572.5
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 4680,
+          "volume": 1021424.1
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 4955,
+          "volume": 838317.8
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 5163,
+          "volume": 1180686.3
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 4646,
+          "volume": 1451603.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5144,
+          "volume": 1560051.5
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3525,
+          "volume": 2851035.5
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2878,
+          "volume": 2188776.8
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 2610,
+          "volume": 1769093.2
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2602,
+          "volume": 1938014.1
+        }
+      ]
+    },
+    "배": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1822,
+          "volume": 39446116.7,
+          "trade_count": 54643,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2467,
+          "volume": 37131483.7,
+          "trade_count": 54182,
+          "change_pct": 35.4
+        },
+        {
+          "year": 2020,
+          "avg_price": 2409,
+          "volume": 14590242.3,
+          "trade_count": 36445,
+          "change_pct": -2.4
+        },
+        {
+          "year": 2021,
+          "avg_price": 3509,
+          "volume": 26181800.5,
+          "trade_count": 45270,
+          "change_pct": 45.7
+        },
+        {
+          "year": 2022,
+          "avg_price": 2700,
+          "volume": 30224719.4,
+          "trade_count": 45919,
+          "change_pct": -23.1
+        },
+        {
+          "year": 2023,
+          "avg_price": 2557,
+          "volume": 23410901.9,
+          "trade_count": 43753,
+          "change_pct": -5.3
+        },
+        {
+          "year": 2024,
+          "avg_price": 4091,
+          "volume": 32279005.0,
+          "trade_count": 49983,
+          "change_pct": 60.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 2895,
+          "volume": 14351039.5,
+          "trade_count": 36605,
+          "change_pct": -29.2
+        },
+        {
+          "year": 2026,
+          "avg_price": 3994,
+          "volume": 17418335.4,
+          "trade_count": 23678,
+          "change_pct": 28.9,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 3974,
+          "volume": 1247089.2
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 4997,
+          "volume": 5206801.7
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5362,
+          "volume": 643709.5
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5578,
+          "volume": 859051.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 6366,
+          "volume": 706925.0
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 7551,
+          "volume": 371171.5
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 8716,
+          "volume": 411441.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 4568,
+          "volume": 1102384.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 3676,
+          "volume": 16910649.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2151,
+          "volume": 1651428.1
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3260,
+          "volume": 1590315.2
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3813,
+          "volume": 1578039.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 4805,
+          "volume": 555564.5
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4116,
+          "volume": 170382.5
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3748,
+          "volume": 616740.1
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3805,
+          "volume": 917586.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3106,
+          "volume": 906539.2
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2858,
+          "volume": 882768.2
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1912,
+          "volume": 988473.0
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1679,
+          "volume": 557921.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2541,
+          "volume": 2150139.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3658,
+          "volume": 2716228.5
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2331,
+          "volume": 1828727.5
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2210,
+          "volume": 2059969.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2983,
+          "volume": 1004339.9
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 4436,
+          "volume": 11373819.4
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2842,
+          "volume": 884125.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2800,
+          "volume": 1067709.5
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3053,
+          "volume": 996294.0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3365,
+          "volume": 478700.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 3806,
+          "volume": 541596.8
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 3644,
+          "volume": 1071750.5
+        }
+      ]
+    },
+    "배추": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 552,
+          "volume": 115219544.3,
+          "trade_count": 42471,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 633,
+          "volume": 103515167.4,
+          "trade_count": 39519,
+          "change_pct": 14.7
+        },
+        {
+          "year": 2020,
+          "avg_price": 746,
+          "volume": 92004763.0,
+          "trade_count": 39138,
+          "change_pct": 17.9
+        },
+        {
+          "year": 2021,
+          "avg_price": 663,
+          "volume": 93785985.5,
+          "trade_count": 36557,
+          "change_pct": -11.1
+        },
+        {
+          "year": 2022,
+          "avg_price": 953,
+          "volume": 89249442.3,
+          "trade_count": 35556,
+          "change_pct": 43.7
+        },
+        {
+          "year": 2023,
+          "avg_price": 732,
+          "volume": 90992795.9,
+          "trade_count": 39354,
+          "change_pct": -23.2
+        },
+        {
+          "year": 2024,
+          "avg_price": 1095,
+          "volume": 92856846.6,
+          "trade_count": 41723,
+          "change_pct": 49.6
+        },
+        {
+          "year": 2025,
+          "avg_price": 1077,
+          "volume": 89345733.0,
+          "trade_count": 38507,
+          "change_pct": -1.6
+        },
+        {
+          "year": 2026,
+          "avg_price": 790,
+          "volume": 46436506.2,
+          "trade_count": 21736,
+          "change_pct": -22.9,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 625,
+          "volume": 4963738.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 721,
+          "volume": 5946246.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 982,
+          "volume": 4783455.9
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 1332,
+          "volume": 5228099.3
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1191,
+          "volume": 5968311.9
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 608,
+          "volume": 6298887.4
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 849,
+          "volume": 7370208.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 1281,
+          "volume": 5815511.2
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 1680,
+          "volume": 10931135.3
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2019,
+          "volume": 7090683.4
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 841,
+          "volume": 10427133.6
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 919,
+          "volume": 18033435.5
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1465,
+          "volume": 1743807.8
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1432,
+          "volume": 4263740.5
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1490,
+          "volume": 5400216.3
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1145,
+          "volume": 6347981.8
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 737,
+          "volume": 6664328.9
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 567,
+          "volume": 6658195.7
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 616,
+          "volume": 6580975.3
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1356,
+          "volume": 5706455.1
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 1413,
+          "volume": 7260950.1
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1252,
+          "volume": 7402262.7
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 841,
+          "volume": 11385018.4
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1139,
+          "volume": 19931800.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 995,
+          "volume": 4800825.2
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 972,
+          "volume": 6483512.0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 829,
+          "volume": 5886904.7
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 773,
+          "volume": 4973004.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 650,
+          "volume": 6493715.0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 552,
+          "volume": 4782012.8
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 570,
+          "volume": 5824717.1
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 934,
+          "volume": 7191815.3
+        }
+      ]
+    },
+    "복숭아": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3016,
+          "volume": 27313389.3,
+          "trade_count": 124285,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2263,
+          "volume": 29446379.8,
+          "trade_count": 114166,
+          "change_pct": -25.0
+        },
+        {
+          "year": 2020,
+          "avg_price": 2822,
+          "volume": 20121178.3,
+          "trade_count": 97298,
+          "change_pct": 24.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 3678,
+          "volume": 20229398.8,
+          "trade_count": 108707,
+          "change_pct": 30.3
+        },
+        {
+          "year": 2022,
+          "avg_price": 3310,
+          "volume": 23087127.7,
+          "trade_count": 118273,
+          "change_pct": -10.0
+        },
+        {
+          "year": 2023,
+          "avg_price": 4688,
+          "volume": 17101560.0,
+          "trade_count": 108797,
+          "change_pct": 41.6
+        },
+        {
+          "year": 2024,
+          "avg_price": 3758,
+          "volume": 22159340.1,
+          "trade_count": 122175,
+          "change_pct": -19.8
+        },
+        {
+          "year": 2025,
+          "avg_price": 4545,
+          "volume": 22065394.5,
+          "trade_count": 127832,
+          "change_pct": 20.9
+        },
+        {
+          "year": 2026,
+          "avg_price": 4213,
+          "volume": 17431844.4,
+          "trade_count": 80820,
+          "change_pct": -1.0,
+          "is_partial": true,
+          "coverage_months": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 6746,
+          "volume": 362.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 21976,
+          "volume": 3990.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 6412,
+          "volume": 695445.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 3266,
+          "volume": 7052913.1
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 3361,
+          "volume": 9472359.5
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 4738,
+          "volume": 4558721.7
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 5638,
+          "volume": 363969.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 16704,
+          "volume": 11568.7
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3700,
+          "volume": 10.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 500,
+          "volume": 100.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2959,
+          "volume": 50.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 6092,
+          "volume": 310.0
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 20577,
+          "volume": 5306.7
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 7154,
+          "volume": 445381.4
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 3743,
+          "volume": 5123879.4
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 4392,
+          "volume": 8973970.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 5053,
+          "volume": 6767151.3
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 5374,
+          "volume": 703095.4
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 9036,
+          "volume": 46107.6
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 7867,
+          "volume": 42.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 1000,
+          "volume": 50.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5800,
+          "volume": 20.0
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 19971,
+          "volume": 7206.7
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 7094,
+          "volume": 419170.1
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 4265,
+          "volume": 5186622.5
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 4078,
+          "volume": 11818775.2
+        }
+      ]
+    },
+    "부추": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1991,
+          "volume": 19620861.0,
+          "trade_count": 40124,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2284,
+          "volume": 15479829.4,
+          "trade_count": 38323,
+          "change_pct": 14.7
+        },
+        {
+          "year": 2020,
+          "avg_price": 2793,
+          "volume": 13285604.2,
+          "trade_count": 34829,
+          "change_pct": 22.3
+        },
+        {
+          "year": 2021,
+          "avg_price": 3142,
+          "volume": 13169372.0,
+          "trade_count": 33756,
+          "change_pct": 12.5
+        },
+        {
+          "year": 2022,
+          "avg_price": 3498,
+          "volume": 12179930.8,
+          "trade_count": 32932,
+          "change_pct": 11.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 4097,
+          "volume": 12696842.1,
+          "trade_count": 35618,
+          "change_pct": 17.1
+        },
+        {
+          "year": 2024,
+          "avg_price": 4085,
+          "volume": 13352103.9,
+          "trade_count": 34858,
+          "change_pct": -0.3
+        },
+        {
+          "year": 2025,
+          "avg_price": 3979,
+          "volume": 12295889.7,
+          "trade_count": 32153,
+          "change_pct": -2.6
+        },
+        {
+          "year": 2026,
+          "avg_price": 2802,
+          "volume": 8996337.4,
+          "trade_count": 19425,
+          "change_pct": -22.1,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5254,
+          "volume": 851733.6
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 7345,
+          "volume": 1237636.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 6526,
+          "volume": 913739.8
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 3553,
+          "volume": 1257439.4
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 2223,
+          "volume": 1353559.2
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1661,
+          "volume": 1280765.1
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1949,
+          "volume": 1362013.7
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 3725,
+          "volume": 1006590.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 3877,
+          "volume": 1160591.6
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 3617,
+          "volume": 1085969.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3882,
+          "volume": 1018754.3
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 8041,
+          "volume": 823311.3
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 7343,
+          "volume": 366075.5
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 6670,
+          "volume": 1004963.8
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 6437,
+          "volume": 1087876.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3417,
+          "volume": 1247810.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2666,
+          "volume": 1231823.4
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1594,
+          "volume": 1327577.9
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1459,
+          "volume": 1256569.7
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 2856,
+          "volume": 1111872.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 3478,
+          "volume": 1110564.5
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3534,
+          "volume": 831385.2
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 7012,
+          "volume": 807426.4
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 5920,
+          "volume": 911943.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 3092,
+          "volume": 903122.6
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 5988,
+          "volume": 1149531.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3082,
+          "volume": 1147850.3
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 3013,
+          "volume": 1169730.9
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 1840,
+          "volume": 1353756.2
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1271,
+          "volume": 974929.0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1305,
+          "volume": 1168318.6
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2845,
+          "volume": 1129098.1
+        }
+      ]
+    },
+    "사과": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2183,
+          "volume": 95047735.6,
+          "trade_count": 204298,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2168,
+          "volume": 87315289.4,
+          "trade_count": 182728,
+          "change_pct": -0.7
+        },
+        {
+          "year": 2020,
+          "avg_price": 2551,
+          "volume": 70634820.2,
+          "trade_count": 161321,
+          "change_pct": 17.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 2771,
+          "volume": 81747996.7,
+          "trade_count": 184880,
+          "change_pct": 8.6
+        },
+        {
+          "year": 2022,
+          "avg_price": 2584,
+          "volume": 86199439.1,
+          "trade_count": 180408,
+          "change_pct": -6.7
+        },
+        {
+          "year": 2023,
+          "avg_price": 3629,
+          "volume": 81338619.8,
+          "trade_count": 184033,
+          "change_pct": 40.4
+        },
+        {
+          "year": 2024,
+          "avg_price": 4682,
+          "volume": 80835545.1,
+          "trade_count": 188928,
+          "change_pct": 29.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 4662,
+          "volume": 61968649.7,
+          "trade_count": 149883,
+          "change_pct": -0.4
+        },
+        {
+          "year": 2026,
+          "avg_price": 4569,
+          "volume": 51023732.3,
+          "trade_count": 83644,
+          "change_pct": -1.6,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 4838,
+          "volume": 4801553.4
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 6277,
+          "volume": 6684071.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5328,
+          "volume": 5339897.9
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5565,
+          "volume": 5529420.3
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5685,
+          "volume": 4177195.9
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 5401,
+          "volume": 2556122.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 4088,
+          "volume": 2050996.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 3135,
+          "volume": 3436416.6
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5187,
+          "volume": 19836979.2
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2857,
+          "volume": 7796265.3
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3895,
+          "volume": 11472181.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3844,
+          "volume": 7154446.1
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 5191,
+          "volume": 1749602.4
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4832,
+          "volume": 2584434.9
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 4683,
+          "volume": 4980974.8
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 4619,
+          "volume": 6953994.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 4524,
+          "volume": 3739778.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 4880,
+          "volume": 3681202.4
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 4475,
+          "volume": 2079798.6
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 4122,
+          "volume": 2971323.4
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 4689,
+          "volume": 11534027.5
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 5648,
+          "volume": 2825671.1
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4787,
+          "volume": 12120790.6
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 4058,
+          "volume": 6747051.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 4996,
+          "volume": 4887431.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 6603,
+          "volume": 14223033.8
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 4448,
+          "volume": 6330206.1
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 3872,
+          "volume": 6186190.8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3657,
+          "volume": 6905346.1
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3573,
+          "volume": 3770236.7
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 2819,
+          "volume": 3104455.8
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2703,
+          "volume": 5616832.0
+        }
+      ]
+    },
+    "상추": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3029,
+          "volume": 17862172.3,
+          "trade_count": 74427,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3224,
+          "volume": 17000613.5,
+          "trade_count": 69256,
+          "change_pct": 6.4
+        },
+        {
+          "year": 2020,
+          "avg_price": 2877,
+          "volume": 16892441.3,
+          "trade_count": 67399,
+          "change_pct": -10.8
+        },
+        {
+          "year": 2021,
+          "avg_price": 4025,
+          "volume": 15597928.0,
+          "trade_count": 63036,
+          "change_pct": 39.9
+        },
+        {
+          "year": 2022,
+          "avg_price": 3977,
+          "volume": 15703628.2,
+          "trade_count": 60883,
+          "change_pct": -1.2
+        },
+        {
+          "year": 2023,
+          "avg_price": 4730,
+          "volume": 16820627.8,
+          "trade_count": 68142,
+          "change_pct": 18.9
+        },
+        {
+          "year": 2024,
+          "avg_price": 4962,
+          "volume": 17487527.5,
+          "trade_count": 68070,
+          "change_pct": 4.9
+        },
+        {
+          "year": 2025,
+          "avg_price": 3801,
+          "volume": 17488782.9,
+          "trade_count": 64805,
+          "change_pct": -23.4
+        },
+        {
+          "year": 2026,
+          "avg_price": 3518,
+          "volume": 11648619.4,
+          "trade_count": 36802,
+          "change_pct": 19.0,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 4421,
+          "volume": 1063363.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 3497,
+          "volume": 1586928.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 4439,
+          "volume": 1490714.0
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2141,
+          "volume": 1960694.2
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 2553,
+          "volume": 2060722.6
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2050,
+          "volume": 1627919.5
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 3490,
+          "volume": 1520193.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 7922,
+          "volume": 1179460.3
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 10306,
+          "volume": 1286364.7
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 18825,
+          "volume": 945599.8
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 6162,
+          "volume": 1431225.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1931,
+          "volume": 1334342.2
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 3462,
+          "volume": 546483.5
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1859,
+          "volume": 1593322.3
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 2613,
+          "volume": 1866609.0
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2375,
+          "volume": 1792698.8
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3485,
+          "volume": 1774840.6
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2304,
+          "volume": 1745014.4
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 3430,
+          "volume": 1512612.6
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 4739,
+          "volume": 1481077.7
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 7214,
+          "volume": 1358709.8
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 9498,
+          "volume": 969407.1
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 5418,
+          "volume": 1496890.8
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2185,
+          "volume": 1351116.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 7042,
+          "volume": 961928.5
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3756,
+          "volume": 1373322.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 1864,
+          "volume": 1531737.8
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 1891,
+          "volume": 1716891.1
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2829,
+          "volume": 1895248.4
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3519,
+          "volume": 1096325.8
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 3981,
+          "volume": 1448475.7
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 4898,
+          "volume": 1624689.4
+        }
+      ]
+    },
+    "새송이버섯": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2248,
+          "volume": 14553955.9,
+          "trade_count": 56341,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2227,
+          "volume": 14156681.8,
+          "trade_count": 50887,
+          "change_pct": -0.9
+        },
+        {
+          "year": 2020,
+          "avg_price": 2060,
+          "volume": 13867210.9,
+          "trade_count": 48739,
+          "change_pct": -7.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 2584,
+          "volume": 13432256.9,
+          "trade_count": 45520,
+          "change_pct": 25.4
+        },
+        {
+          "year": 2022,
+          "avg_price": 2699,
+          "volume": 13417922.5,
+          "trade_count": 43011,
+          "change_pct": 4.5
+        },
+        {
+          "year": 2023,
+          "avg_price": 2436,
+          "volume": 14740822.4,
+          "trade_count": 49147,
+          "change_pct": -9.7
+        },
+        {
+          "year": 2024,
+          "avg_price": 2574,
+          "volume": 14980570.6,
+          "trade_count": 49572,
+          "change_pct": 5.7
+        },
+        {
+          "year": 2025,
+          "avg_price": 2626,
+          "volume": 13460377.9,
+          "trade_count": 44787,
+          "change_pct": 2.0
+        },
+        {
+          "year": 2026,
+          "avg_price": 2669,
+          "volume": 9032901.6,
+          "trade_count": 27041,
+          "change_pct": 2.0,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 2784,
+          "volume": 1047985.1
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 3725,
+          "volume": 1452245.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 3034,
+          "volume": 1133660.2
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2564,
+          "volume": 1254638.3
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 2308,
+          "volume": 1295021.5
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1851,
+          "volume": 1239707.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1955,
+          "volume": 1168338.2
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2085,
+          "volume": 1141434.6
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2606,
+          "volume": 1576885.5
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2680,
+          "volume": 1203048.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 2767,
+          "volume": 1241747.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2335,
+          "volume": 1225859.7
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 3083,
+          "volume": 485052.4
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2712,
+          "volume": 1262608.4
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3270,
+          "volume": 1245320.5
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2775,
+          "volume": 1178666.0
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2669,
+          "volume": 1248724.4
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2379,
+          "volume": 1221276.3
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2089,
+          "volume": 1131041.0
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 2138,
+          "volume": 1081555.5
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2317,
+          "volume": 1261664.3
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3141,
+          "volume": 937834.3
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2529,
+          "volume": 1234854.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2713,
+          "volume": 1171779.9
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 3182,
+          "volume": 953006.8
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3714,
+          "volume": 1402635.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2472,
+          "volume": 1193968.1
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2240,
+          "volume": 1094015.2
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2831,
+          "volume": 1265003.7
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2442,
+          "volume": 863786.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 2281,
+          "volume": 1019731.4
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1974,
+          "volume": 1240754.4
+        }
+      ]
+    },
+    "수박": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1336,
+          "volume": 67451291.9,
+          "trade_count": 96494,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1280,
+          "volume": 74548811.0,
+          "trade_count": 102203,
+          "change_pct": -4.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 1351,
+          "volume": 62004138.3,
+          "trade_count": 91497,
+          "change_pct": 5.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 1589,
+          "volume": 50470083.3,
+          "trade_count": 78829,
+          "change_pct": 17.6
+        },
+        {
+          "year": 2022,
+          "avg_price": 1814,
+          "volume": 57165192.9,
+          "trade_count": 85140,
+          "change_pct": 14.2
+        },
+        {
+          "year": 2023,
+          "avg_price": 2022,
+          "volume": 56706657.6,
+          "trade_count": 88111,
+          "change_pct": 11.5
+        },
+        {
+          "year": 2024,
+          "avg_price": 1808,
+          "volume": 56259140.5,
+          "trade_count": 88232,
+          "change_pct": -10.6
+        },
+        {
+          "year": 2025,
+          "avg_price": 2176,
+          "volume": 56595375.7,
+          "trade_count": 87160,
+          "change_pct": 20.4
+        },
+        {
+          "year": 2026,
+          "avg_price": 1871,
+          "volume": 60939185.8,
+          "trade_count": 65313,
+          "change_pct": -13.7,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 4891,
+          "volume": 133922.5
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 4174,
+          "volume": 352728.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 4289,
+          "volume": 234312.5
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 4068,
+          "volume": 592759.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3054,
+          "volume": 5668045.3
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1569,
+          "volume": 18388690.6
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1260,
+          "volume": 17742888.6
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2104,
+          "volume": 10220782.6
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 1832,
+          "volume": 1832186.2
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2719,
+          "volume": 356016.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 2183,
+          "volume": 442750.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2993,
+          "volume": 294057.9
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 3296,
+          "volume": 90234.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 3188,
+          "volume": 251349.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3556,
+          "volume": 233173.0
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3614,
+          "volume": 776918.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2585,
+          "volume": 7106498.8
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1957,
+          "volume": 17468529.3
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2229,
+          "volume": 16292477.9
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1990,
+          "volume": 11330999.7
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2659,
+          "volume": 1665304.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1746,
+          "volume": 696181.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1899,
+          "volume": 330141.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2095,
+          "volume": 353569.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2185,
+          "volume": 245565.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2708,
+          "volume": 203783.0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3975,
+          "volume": 353005.5
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 3721,
+          "volume": 622665.6
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2927,
+          "volume": 7605492.4
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2006,
+          "volume": 14366470.7
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1617,
+          "volume": 14527673.0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1506,
+          "volume": 23014530.6
+        }
+      ]
+    },
+    "시금치": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2120,
+          "volume": 15383695.4,
+          "trade_count": 41532,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2104,
+          "volume": 14154317.7,
+          "trade_count": 41595,
+          "change_pct": -0.8
+        },
+        {
+          "year": 2020,
+          "avg_price": 2083,
+          "volume": 13958336.2,
+          "trade_count": 41913,
+          "change_pct": -1.0
+        },
+        {
+          "year": 2021,
+          "avg_price": 2738,
+          "volume": 13357068.9,
+          "trade_count": 39572,
+          "change_pct": 31.4
+        },
+        {
+          "year": 2022,
+          "avg_price": 3260,
+          "volume": 11515920.9,
+          "trade_count": 36923,
+          "change_pct": 19.1
+        },
+        {
+          "year": 2023,
+          "avg_price": 2822,
+          "volume": 12919976.0,
+          "trade_count": 42168,
+          "change_pct": -13.4
+        },
+        {
+          "year": 2024,
+          "avg_price": 3870,
+          "volume": 11956403.8,
+          "trade_count": 40743,
+          "change_pct": 37.1
+        },
+        {
+          "year": 2025,
+          "avg_price": 4091,
+          "volume": 10171681.3,
+          "trade_count": 37153,
+          "change_pct": 5.7
+        },
+        {
+          "year": 2026,
+          "avg_price": 3240,
+          "volume": 8629058.2,
+          "trade_count": 26241,
+          "change_pct": -8.6,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 3249,
+          "volume": 1653115.7
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 5845,
+          "volume": 2220202.4
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 3642,
+          "volume": 1303823.4
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 3279,
+          "volume": 1223066.2
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 2384,
+          "volume": 927347.6
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2425,
+          "volume": 769573.9
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 4891,
+          "volume": 401726.9
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 8090,
+          "volume": 120895.7
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 20402,
+          "volume": 65042.1
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 7451,
+          "volume": 227148.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3013,
+          "volume": 1287819.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2984,
+          "volume": 1756642.5
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 4360,
+          "volume": 619918.9
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4800,
+          "volume": 1376539.2
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3982,
+          "volume": 1500718.1
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2125,
+          "volume": 1390528.4
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2127,
+          "volume": 875286.6
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2844,
+          "volume": 735073.2
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 4981,
+          "volume": 323237.9
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 8824,
+          "volume": 70562.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 14140,
+          "volume": 91167.1
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 8971,
+          "volume": 657764.8
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4541,
+          "volume": 840331.4
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 3656,
+          "volume": 1690553.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 4120,
+          "volume": 1376661.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 4713,
+          "volume": 2099546.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 1999,
+          "volume": 1998753.6
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 1737,
+          "volume": 1226631.6
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2565,
+          "volume": 905147.0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2645,
+          "volume": 547390.8
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 4414,
+          "volume": 371248.3
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 8247,
+          "volume": 103679.2
+        }
+      ]
+    },
+    "양파": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 647,
+          "volume": 170834147.7,
+          "trade_count": 41258,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 511,
+          "volume": 165793260.7,
+          "trade_count": 39237,
+          "change_pct": -21.0
+        },
+        {
+          "year": 2020,
+          "avg_price": 856,
+          "volume": 155455001.6,
+          "trade_count": 36815,
+          "change_pct": 67.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 938,
+          "volume": 145535147.9,
+          "trade_count": 32094,
+          "change_pct": 9.6
+        },
+        {
+          "year": 2022,
+          "avg_price": 882,
+          "volume": 154792843.9,
+          "trade_count": 32769,
+          "change_pct": -6.0
+        },
+        {
+          "year": 2023,
+          "avg_price": 1145,
+          "volume": 150690997.2,
+          "trade_count": 36897,
+          "change_pct": 29.8
+        },
+        {
+          "year": 2024,
+          "avg_price": 1051,
+          "volume": 151804043.3,
+          "trade_count": 37887,
+          "change_pct": -8.2
+        },
+        {
+          "year": 2025,
+          "avg_price": 1027,
+          "volume": 135545764.6,
+          "trade_count": 33316,
+          "change_pct": -2.3
+        },
+        {
+          "year": 2026,
+          "avg_price": 762,
+          "volume": 101076081.6,
+          "trade_count": 21684,
+          "change_pct": -27.1,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 1079,
+          "volume": 9920749.5
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 1011,
+          "volume": 11427049.9
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 1135,
+          "volume": 10857383.6
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 1445,
+          "volume": 14812505.0
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1272,
+          "volume": 16068924.2
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 797,
+          "volume": 19521085.3
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 811,
+          "volume": 12414138.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 930,
+          "volume": 9388596.7
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 961,
+          "volume": 13446473.1
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 1001,
+          "volume": 11346404.7
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1065,
+          "volume": 11035979.9
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1106,
+          "volume": 11564752.6
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1340,
+          "volume": 3812298.1
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 1364,
+          "volume": 10249060.3
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 1637,
+          "volume": 9271685.4
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1385,
+          "volume": 15377062.1
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 988,
+          "volume": 17300167.2
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 611,
+          "volume": 19825889.9
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 658,
+          "volume": 11693182.7
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 942,
+          "volume": 9392440.3
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 960,
+          "volume": 10673122.7
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1028,
+          "volume": 6375022.6
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1002,
+          "volume": 10697367.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 955,
+          "volume": 10878466.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 1012,
+          "volume": 8393977.4
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 938,
+          "volume": 12569449.8
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 736,
+          "volume": 11954364.3
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 758,
+          "volume": 11982065.3
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 545,
+          "volume": 19096574.2
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 614,
+          "volume": 13188368.1
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 714,
+          "volume": 10932967.8
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 971,
+          "volume": 12958314.7
+        }
+      ]
+    },
+    "얼갈이배추": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1049,
+          "volume": 25745747.0,
+          "trade_count": 36766,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1062,
+          "volume": 24687515.4,
+          "trade_count": 34691,
+          "change_pct": 1.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 1137,
+          "volume": 24396428.8,
+          "trade_count": 35010,
+          "change_pct": 7.1
+        },
+        {
+          "year": 2021,
+          "avg_price": 1243,
+          "volume": 23993107.7,
+          "trade_count": 31766,
+          "change_pct": 9.3
+        },
+        {
+          "year": 2022,
+          "avg_price": 1661,
+          "volume": 24041675.5,
+          "trade_count": 32500,
+          "change_pct": 33.6
+        },
+        {
+          "year": 2023,
+          "avg_price": 1474,
+          "volume": 27415695.1,
+          "trade_count": 36544,
+          "change_pct": -11.3
+        },
+        {
+          "year": 2024,
+          "avg_price": 1789,
+          "volume": 28017955.3,
+          "trade_count": 38383,
+          "change_pct": 21.4
+        },
+        {
+          "year": 2025,
+          "avg_price": 1557,
+          "volume": 27067748.2,
+          "trade_count": 36400,
+          "change_pct": -13.0
+        },
+        {
+          "year": 2026,
+          "avg_price": 1406,
+          "volume": 19355646.4,
+          "trade_count": 21686,
+          "change_pct": -5.8,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 1557,
+          "volume": 1519089.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 1927,
+          "volume": 2252242.4
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 2072,
+          "volume": 1680218.2
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 1944,
+          "volume": 2450084.6
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1289,
+          "volume": 2993931.8
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 825,
+          "volume": 2854419.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1465,
+          "volume": 2571230.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2058,
+          "volume": 2269487.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2966,
+          "volume": 2642531.9
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2767,
+          "volume": 2492234.7
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1535,
+          "volume": 2295244.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 1129,
+          "volume": 1997241.4
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 1999,
+          "volume": 563069.5
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2008,
+          "volume": 1729610.9
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 2311,
+          "volume": 1934983.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 1396,
+          "volume": 2806027.7
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 1291,
+          "volume": 3021378.8
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 947,
+          "volume": 3260215.5
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1150,
+          "volume": 2722041.4
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1834,
+          "volume": 2423992.7
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2213,
+          "volume": 2416066.2
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1771,
+          "volume": 1886163.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 1326,
+          "volume": 2373218.1
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1430,
+          "volume": 1930980.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 1964,
+          "volume": 1684141.5
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 1965,
+          "volume": 2515573.9
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 1304,
+          "volume": 2378838.7
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 1323,
+          "volume": 2624002.8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 1174,
+          "volume": 3026363.9
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 797,
+          "volume": 2172726.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1125,
+          "volume": 2470606.2
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1739,
+          "volume": 2483393.0
+        }
+      ]
+    },
+    "오이": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1534,
+          "volume": 66616306.6,
+          "trade_count": 125246,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1608,
+          "volume": 64741206.8,
+          "trade_count": 121436,
+          "change_pct": 4.8
+        },
+        {
+          "year": 2020,
+          "avg_price": 1503,
+          "volume": 65070549.9,
+          "trade_count": 116012,
+          "change_pct": -6.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 1925,
+          "volume": 55432256.9,
+          "trade_count": 105030,
+          "change_pct": 28.1
+        },
+        {
+          "year": 2022,
+          "avg_price": 2027,
+          "volume": 55532983.3,
+          "trade_count": 109026,
+          "change_pct": 5.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 2326,
+          "volume": 60467417.5,
+          "trade_count": 121096,
+          "change_pct": 14.8
+        },
+        {
+          "year": 2024,
+          "avg_price": 2590,
+          "volume": 63245372.3,
+          "trade_count": 122042,
+          "change_pct": 11.3
+        },
+        {
+          "year": 2025,
+          "avg_price": 2146,
+          "volume": 66417618.8,
+          "trade_count": 118455,
+          "change_pct": -17.1
+        },
+        {
+          "year": 2026,
+          "avg_price": 1792,
+          "volume": 54355067.5,
+          "trade_count": 70470,
+          "change_pct": -12.2,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 4304,
+          "volume": 2173853.9
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 6109,
+          "volume": 2111007.1
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5537,
+          "volume": 2110917.7
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 3179,
+          "volume": 5519766.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1904,
+          "volume": 10369006.6
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1397,
+          "volume": 12111319.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1725,
+          "volume": 7669921.5
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2396,
+          "volume": 5801240.4
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2483,
+          "volume": 6129446.6
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 3306,
+          "volume": 3924147.7
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3831,
+          "volume": 2799636.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3799,
+          "volume": 2525109.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 3333,
+          "volume": 1117277.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 3586,
+          "volume": 2776190.8
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 4146,
+          "volume": 2927348.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2858,
+          "volume": 5446765.0
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2060,
+          "volume": 9263032.3
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1475,
+          "volume": 14305150.7
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1545,
+          "volume": 8603020.5
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1440,
+          "volume": 6885670.9
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2453,
+          "volume": 5729031.9
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 2265,
+          "volume": 2910396.9
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2552,
+          "volume": 3380460.6
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2754,
+          "volume": 3073273.4
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 3768,
+          "volume": 1870335.8
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3598,
+          "volume": 3076278.9
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3014,
+          "volume": 3859060.9
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2136,
+          "volume": 6371493.6
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 1523,
+          "volume": 11281429.8
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1465,
+          "volume": 9246754.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 931,
+          "volume": 8772159.2
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1533,
+          "volume": 9877554.9
+        }
+      ]
+    },
+    "쪽파": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2357,
+          "volume": 9782327.0,
+          "trade_count": 32262,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2456,
+          "volume": 10080164.0,
+          "trade_count": 32199,
+          "change_pct": 4.2
+        },
+        {
+          "year": 2020,
+          "avg_price": 3077,
+          "volume": 8553497.0,
+          "trade_count": 30142,
+          "change_pct": 25.3
+        },
+        {
+          "year": 2021,
+          "avg_price": 4147,
+          "volume": 8172882.5,
+          "trade_count": 29759,
+          "change_pct": 34.8
+        },
+        {
+          "year": 2022,
+          "avg_price": 3513,
+          "volume": 9143371.1,
+          "trade_count": 31734,
+          "change_pct": -15.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 3889,
+          "volume": 7989807.6,
+          "trade_count": 33405,
+          "change_pct": 10.7
+        },
+        {
+          "year": 2024,
+          "avg_price": 5461,
+          "volume": 8089216.9,
+          "trade_count": 36626,
+          "change_pct": 40.4
+        },
+        {
+          "year": 2025,
+          "avg_price": 4594,
+          "volume": 8255279.8,
+          "trade_count": 36576,
+          "change_pct": -15.9
+        },
+        {
+          "year": 2026,
+          "avg_price": 3240,
+          "volume": 5475917.2,
+          "trade_count": 20678,
+          "change_pct": -30.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5904,
+          "volume": 416880.2
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 8542,
+          "volume": 922508.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 4670,
+          "volume": 682834.7
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 3249,
+          "volume": 1104364.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5201,
+          "volume": 467769.2
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 5903,
+          "volume": 329364.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 6795,
+          "volume": 260254.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 6144,
+          "volume": 293143.8
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 8538,
+          "volume": 582047.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 6394,
+          "volume": 594783.1
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3721,
+          "volume": 1247626.8
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 4796,
+          "volume": 1187641.1
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 8907,
+          "volume": 144457.6
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 8223,
+          "volume": 432720.8
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 6018,
+          "volume": 732508.7
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2799,
+          "volume": 1227172.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3908,
+          "volume": 546696.8
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2970,
+          "volume": 561889.5
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 5058,
+          "volume": 338806.7
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 5771,
+          "volume": 334191.8
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2844,
+          "volume": 830911.8
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 4944,
+          "volume": 849579.2
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 6153,
+          "volume": 911114.1
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 4180,
+          "volume": 1345230.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 4148,
+          "volume": 472619.3
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 4987,
+          "volume": 761147.1
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2214,
+          "volume": 1254141.2
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 1458,
+          "volume": 1374345.2
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3510,
+          "volume": 586027.4
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3854,
+          "volume": 358086.4
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 6666,
+          "volume": 276860.2
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 4892,
+          "volume": 392690.6
+        }
+      ]
+    },
+    "참외": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 2595,
+          "volume": 24015814.8,
+          "trade_count": 81592,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2662,
+          "volume": 27329793.7,
+          "trade_count": 83463,
+          "change_pct": 2.6
+        },
+        {
+          "year": 2020,
+          "avg_price": 2735,
+          "volume": 25353885.2,
+          "trade_count": 74535,
+          "change_pct": 2.7
+        },
+        {
+          "year": 2021,
+          "avg_price": 3004,
+          "volume": 22210944.8,
+          "trade_count": 69367,
+          "change_pct": 9.8
+        },
+        {
+          "year": 2022,
+          "avg_price": 3088,
+          "volume": 22113638.7,
+          "trade_count": 67835,
+          "change_pct": 2.8
+        },
+        {
+          "year": 2023,
+          "avg_price": 3281,
+          "volume": 23606835.0,
+          "trade_count": 67441,
+          "change_pct": 6.2
+        },
+        {
+          "year": 2024,
+          "avg_price": 3393,
+          "volume": 24871404.6,
+          "trade_count": 64692,
+          "change_pct": 3.4
+        },
+        {
+          "year": 2025,
+          "avg_price": 3112,
+          "volume": 24283115.0,
+          "trade_count": 65257,
+          "change_pct": -8.3
+        },
+        {
+          "year": 2026,
+          "avg_price": 3375,
+          "volume": 23577732.1,
+          "trade_count": 52203,
+          "change_pct": 7.9,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 6842,
+          "volume": 4920.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 8479,
+          "volume": 80140.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 7359,
+          "volume": 959481.5
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 7332,
+          "volume": 2082897.7
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3901,
+          "volume": 7856304.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2783,
+          "volume": 7397693.4
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1350,
+          "volume": 5409946.0
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2829,
+          "volume": 588946.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2295,
+          "volume": 421461.6
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2320,
+          "volume": 66644.0
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 1924,
+          "volume": 1730.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 9610,
+          "volume": 1240.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 5309,
+          "volume": 5815.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 7894,
+          "volume": 39109.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 6674,
+          "volume": 1082095.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 8926,
+          "volume": 1067926.5
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3486,
+          "volume": 8113055.3
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2999,
+          "volume": 6048396.9
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1290,
+          "volume": 6055008.4
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 2215,
+          "volume": 1319916.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2581,
+          "volume": 401775.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 1998,
+          "volume": 146727.0
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2054,
+          "volume": 2130.0
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 4474,
+          "volume": 1160.0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 4991,
+          "volume": 8301.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 7862,
+          "volume": 54425.0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 6722,
+          "volume": 1077261.1
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 6487,
+          "volume": 2337679.9
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 4305,
+          "volume": 7396796.6
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 2442,
+          "volume": 6019518.4
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1325,
+          "volume": 5502972.8
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2433,
+          "volume": 1180777.3
+        }
+      ]
+    },
+    "토마토": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1751,
+          "volume": 32523013.3,
+          "trade_count": 105675,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 2113,
+          "volume": 28935206.2,
+          "trade_count": 100608,
+          "change_pct": 20.7
+        },
+        {
+          "year": 2020,
+          "avg_price": 2369,
+          "volume": 28344976.1,
+          "trade_count": 99661,
+          "change_pct": 12.1
+        },
+        {
+          "year": 2021,
+          "avg_price": 2329,
+          "volume": 29089638.8,
+          "trade_count": 94452,
+          "change_pct": -1.7
+        },
+        {
+          "year": 2022,
+          "avg_price": 2475,
+          "volume": 26532220.6,
+          "trade_count": 84193,
+          "change_pct": 6.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 2878,
+          "volume": 28585601.2,
+          "trade_count": 88756,
+          "change_pct": 16.3
+        },
+        {
+          "year": 2024,
+          "avg_price": 3625,
+          "volume": 25785288.7,
+          "trade_count": 84577,
+          "change_pct": 26.0
+        },
+        {
+          "year": 2025,
+          "avg_price": 2643,
+          "volume": 30223500.9,
+          "trade_count": 88942,
+          "change_pct": -27.1
+        },
+        {
+          "year": 2026,
+          "avg_price": 2412,
+          "volume": 24096908.9,
+          "trade_count": 59889,
+          "change_pct": -6.1,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 3578,
+          "volume": 1230576.8
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 4675,
+          "volume": 1382465.7
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 5695,
+          "volume": 1889968.6
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5485,
+          "volume": 2795370.9
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3727,
+          "volume": 3414724.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1894,
+          "volume": 3838884.9
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1714,
+          "volume": 3026976.2
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2069,
+          "volume": 2692556.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 4259,
+          "volume": 1904472.5
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 6821,
+          "volume": 994513.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 4129,
+          "volume": 1343122.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 4170,
+          "volume": 1271656.7
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 2614,
+          "volume": 647495.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2799,
+          "volume": 1776289.0
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3836,
+          "volume": 2280240.5
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3508,
+          "volume": 3532626.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2471,
+          "volume": 3850337.4
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1776,
+          "volume": 4363098.1
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2038,
+          "volume": 3059293.5
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 2196,
+          "volume": 3114816.5
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 2418,
+          "volume": 3306774.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 2402,
+          "volume": 1403537.2
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4428,
+          "volume": 1300293.5
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 2911,
+          "volume": 1588700.0
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2530,
+          "volume": 1324945.5
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2961,
+          "volume": 1714368.5
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 3395,
+          "volume": 2633547.5
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 2947,
+          "volume": 3939741.3
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 2557,
+          "volume": 4511237.6
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1500,
+          "volume": 3591521.0
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 1859,
+          "volume": 2559376.5
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1953,
+          "volume": 3822171.0
+        }
+      ]
+    },
+    "파프리카": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3349,
+          "volume": 10651507.4,
+          "trade_count": 40276,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3106,
+          "volume": 11568139.8,
+          "trade_count": 43007,
+          "change_pct": -7.3
+        },
+        {
+          "year": 2020,
+          "avg_price": 3610,
+          "volume": 11169602.7,
+          "trade_count": 39486,
+          "change_pct": 16.2
+        },
+        {
+          "year": 2021,
+          "avg_price": 3659,
+          "volume": 11864713.1,
+          "trade_count": 37457,
+          "change_pct": 1.4
+        },
+        {
+          "year": 2022,
+          "avg_price": 3808,
+          "volume": 10424731.6,
+          "trade_count": 34708,
+          "change_pct": 4.1
+        },
+        {
+          "year": 2023,
+          "avg_price": 3708,
+          "volume": 11017835.8,
+          "trade_count": 38139,
+          "change_pct": -2.6
+        },
+        {
+          "year": 2024,
+          "avg_price": 4182,
+          "volume": 11507116.8,
+          "trade_count": 38351,
+          "change_pct": 12.8
+        },
+        {
+          "year": 2025,
+          "avg_price": 4712,
+          "volume": 9972606.3,
+          "trade_count": 34526,
+          "change_pct": 12.7
+        },
+        {
+          "year": 2026,
+          "avg_price": 3981,
+          "volume": 8103332.9,
+          "trade_count": 21123,
+          "change_pct": -15.9,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5152,
+          "volume": 539299.5
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 8286,
+          "volume": 837721.6
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 8332,
+          "volume": 489728.7
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 6285,
+          "volume": 683826.3
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 3761,
+          "volume": 1186137.3
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2669,
+          "volume": 1369535.0
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1507,
+          "volume": 1931504.9
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 3843,
+          "volume": 797811.0
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5285,
+          "volume": 903411.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 4061,
+          "volume": 815201.5
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 4114,
+          "volume": 1016014.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3913,
+          "volume": 936925.6
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 5147,
+          "volume": 347761.3
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 6534,
+          "volume": 816952.1
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 6181,
+          "volume": 771665.4
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 6658,
+          "volume": 758509.2
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 4677,
+          "volume": 1015003.9
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 3614,
+          "volume": 1223954.6
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 2639,
+          "volume": 1059172.9
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 3944,
+          "volume": 675760.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 4814,
+          "volume": 1002341.5
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 5500,
+          "volume": 588050.6
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4597,
+          "volume": 907808.1
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 3946,
+          "volume": 805626.1
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 3980,
+          "volume": 660782.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 8418,
+          "volume": 699380.7
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 6025,
+          "volume": 758814.8
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 4529,
+          "volume": 965794.8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 4433,
+          "volume": 1261864.7
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3445,
+          "volume": 1085066.3
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 2325,
+          "volume": 1212462.1
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1814,
+          "volume": 1459167.5
+        }
+      ]
+    },
+    "포도": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3732,
+          "volume": 23878930.3,
+          "trade_count": 50747,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3719,
+          "volume": 27911061.5,
+          "trade_count": 56474,
+          "change_pct": -0.3
+        },
+        {
+          "year": 2020,
+          "avg_price": 5361,
+          "volume": 19798145.6,
+          "trade_count": 49893,
+          "change_pct": 44.2
+        },
+        {
+          "year": 2021,
+          "avg_price": 6192,
+          "volume": 21093580.6,
+          "trade_count": 56814,
+          "change_pct": 15.5
+        },
+        {
+          "year": 2022,
+          "avg_price": 6434,
+          "volume": 27711880.0,
+          "trade_count": 67545,
+          "change_pct": 3.9
+        },
+        {
+          "year": 2023,
+          "avg_price": 6029,
+          "volume": 30874900.3,
+          "trade_count": 79668,
+          "change_pct": -6.3
+        },
+        {
+          "year": 2024,
+          "avg_price": 5294,
+          "volume": 34707399.0,
+          "trade_count": 84839,
+          "change_pct": -12.2
+        },
+        {
+          "year": 2025,
+          "avg_price": 4275,
+          "volume": 31284744.6,
+          "trade_count": 73849,
+          "change_pct": -19.2
+        },
+        {
+          "year": 2026,
+          "avg_price": 5145,
+          "volume": 11588140.0,
+          "trade_count": 26800,
+          "change_pct": -1.5,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 7816,
+          "volume": 984062.3
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 8624,
+          "volume": 1597810.0
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 8012,
+          "volume": 897747.0
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 6044,
+          "volume": 1323222.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 6253,
+          "volume": 905298.9
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 7394,
+          "volume": 316866.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 9544,
+          "volume": 644765.5
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 7614,
+          "volume": 3208665.6
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 5034,
+          "volume": 12771955.9
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 3437,
+          "volume": 7657270.4
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 3873,
+          "volume": 2769994.0
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 4399,
+          "volume": 1629740.9
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 4623,
+          "volume": 631431.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 4966,
+          "volume": 1520314.7
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 4910,
+          "volume": 1333908.2
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 3976,
+          "volume": 1704793.6
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 3518,
+          "volume": 1266724.4
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 4520,
+          "volume": 744300.5
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 8353,
+          "volume": 630372.7
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 6411,
+          "volume": 3387192.6
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 4526,
+          "volume": 8212837.1
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3506,
+          "volume": 6973226.3
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2542,
+          "volume": 3281052.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 3238,
+          "volume": 1598590.6
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 3828,
+          "volume": 1185016.9
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 3740,
+          "volume": 2073406.5
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 4917,
+          "volume": 979283.4
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5175,
+          "volume": 847635.7
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 5419,
+          "volume": 760238.0
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 7565,
+          "volume": 201005.4
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 9443,
+          "volume": 589137.3
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 5436,
+          "volume": 4952416.7
+        }
+      ]
+    },
+    "표고버섯": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 5475,
+          "volume": 5499964.7,
+          "trade_count": 56919,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 5208,
+          "volume": 5401921.9,
+          "trade_count": 63520,
+          "change_pct": -4.9
+        },
+        {
+          "year": 2020,
+          "avg_price": 5412,
+          "volume": 4902604.7,
+          "trade_count": 60842,
+          "change_pct": 3.9
+        },
+        {
+          "year": 2021,
+          "avg_price": 5765,
+          "volume": 5437677.5,
+          "trade_count": 60332,
+          "change_pct": 6.5
+        },
+        {
+          "year": 2022,
+          "avg_price": 6117,
+          "volume": 4937239.4,
+          "trade_count": 53089,
+          "change_pct": 6.1
+        },
+        {
+          "year": 2023,
+          "avg_price": 6209,
+          "volume": 5133627.9,
+          "trade_count": 55160,
+          "change_pct": 1.5
+        },
+        {
+          "year": 2024,
+          "avg_price": 6051,
+          "volume": 5707371.0,
+          "trade_count": 57289,
+          "change_pct": -2.5
+        },
+        {
+          "year": 2025,
+          "avg_price": 5920,
+          "volume": 5260640.1,
+          "trade_count": 46657,
+          "change_pct": -2.2
+        },
+        {
+          "year": 2026,
+          "avg_price": 6212,
+          "volume": 3630287.2,
+          "trade_count": 28073,
+          "change_pct": 12.1,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5543,
+          "volume": 383076.0
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 7302,
+          "volume": 676601.3
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 6331,
+          "volume": 404038.1
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5458,
+          "volume": 545954.6
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 5242,
+          "volume": 507723.5
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 5737,
+          "volume": 403618.5
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 5171,
+          "volume": 391524.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 5968,
+          "volume": 326533.8
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 6980,
+          "volume": 571520.7
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 6478,
+          "volume": 506105.4
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 5611,
+          "volume": 530545.5
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 5949,
+          "volume": 460128.8
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 6274,
+          "volume": 173272.4
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 5482,
+          "volume": 472735.6
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 5961,
+          "volume": 510222.0
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 5274,
+          "volume": 512509.3
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 4775,
+          "volume": 540205.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 5822,
+          "volume": 461224.4
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 5412,
+          "volume": 388731.6
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 6044,
+          "volume": 333700.0
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 6793,
+          "volume": 415879.0
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 6892,
+          "volume": 430416.4
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 6868,
+          "volume": 492865.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 5970,
+          "volume": 528878.5
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 5896,
+          "volume": 386418.0
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 7626,
+          "volume": 654694.6
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 5785,
+          "volume": 497732.9
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 5494,
+          "volume": 513135.8
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 6213,
+          "volume": 490653.1
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 5648,
+          "volume": 340528.6
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 6179,
+          "volume": 359071.1
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 6166,
+          "volume": 388053.1
+        }
+      ]
+    },
+    "풋고추": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 3286,
+          "volume": 26947867.6,
+          "trade_count": 125860,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 3530,
+          "volume": 25767920.7,
+          "trade_count": 118434,
+          "change_pct": 7.4
+        },
+        {
+          "year": 2020,
+          "avg_price": 3814,
+          "volume": 25227217.2,
+          "trade_count": 119165,
+          "change_pct": 8.0
+        },
+        {
+          "year": 2021,
+          "avg_price": 3737,
+          "volume": 24286815.6,
+          "trade_count": 104484,
+          "change_pct": -2.0
+        },
+        {
+          "year": 2022,
+          "avg_price": 4360,
+          "volume": 22347076.9,
+          "trade_count": 102736,
+          "change_pct": 16.7
+        },
+        {
+          "year": 2023,
+          "avg_price": 4522,
+          "volume": 23671028.5,
+          "trade_count": 105488,
+          "change_pct": 3.7
+        },
+        {
+          "year": 2024,
+          "avg_price": 5198,
+          "volume": 23141626.3,
+          "trade_count": 105828,
+          "change_pct": 14.9
+        },
+        {
+          "year": 2025,
+          "avg_price": 3925,
+          "volume": 21757410.9,
+          "trade_count": 95425,
+          "change_pct": -24.5
+        },
+        {
+          "year": 2026,
+          "avg_price": 4624,
+          "volume": 15830140.9,
+          "trade_count": 54391,
+          "change_pct": 15.9,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 5621,
+          "volume": 1402884.1
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 11219,
+          "volume": 1574834.2
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 14462,
+          "volume": 1183463.9
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 5978,
+          "volume": 1950657.7
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 4049,
+          "volume": 2394283.4
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 2961,
+          "volume": 2601050.1
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 3246,
+          "volume": 2296920.7
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 3334,
+          "volume": 2118222.1
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 4887,
+          "volume": 2057973.4
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 4030,
+          "volume": 2018960.2
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 5199,
+          "volume": 1721132.6
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 3793,
+          "volume": 1821244.0
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 5255,
+          "volume": 589870.8
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 5164,
+          "volume": 1699608.8
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 7458,
+          "volume": 1507665.5
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 4140,
+          "volume": 2046031.6
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 2710,
+          "volume": 2462245.0
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 2606,
+          "volume": 2518655.3
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 3906,
+          "volume": 1914189.2
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 3253,
+          "volume": 2026750.5
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 3123,
+          "volume": 2121262.6
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 3938,
+          "volume": 1346851.1
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 4547,
+          "volume": 1661850.2
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 3771,
+          "volume": 1862430.2
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 5655,
+          "volume": 1181100.5
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 10412,
+          "volume": 1516174.6
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 6736,
+          "volume": 1538412.8
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 4709,
+          "volume": 1976139.4
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 3429,
+          "volume": 2628936.9
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 3222,
+          "volume": 2056142.1
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 3996,
+          "volume": 1880251.7
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 2588,
+          "volume": 3052983.0
+        }
+      ]
+    },
+    "호박": {
+      "yearly": [
+        {
+          "year": 2018,
+          "avg_price": 1570,
+          "volume": 51761646.3,
+          "trade_count": 134370,
+          "change_pct": null
+        },
+        {
+          "year": 2019,
+          "avg_price": 1308,
+          "volume": 54301084.2,
+          "trade_count": 133886,
+          "change_pct": -16.7
+        },
+        {
+          "year": 2020,
+          "avg_price": 1537,
+          "volume": 47011036.4,
+          "trade_count": 119530,
+          "change_pct": 17.5
+        },
+        {
+          "year": 2021,
+          "avg_price": 1835,
+          "volume": 44120068.0,
+          "trade_count": 112215,
+          "change_pct": 19.4
+        },
+        {
+          "year": 2022,
+          "avg_price": 1878,
+          "volume": 41831242.4,
+          "trade_count": 108518,
+          "change_pct": 2.3
+        },
+        {
+          "year": 2023,
+          "avg_price": 2198,
+          "volume": 40687023.2,
+          "trade_count": 113589,
+          "change_pct": 17.0
+        },
+        {
+          "year": 2024,
+          "avg_price": 2345,
+          "volume": 42799867.3,
+          "trade_count": 118971,
+          "change_pct": 6.7
+        },
+        {
+          "year": 2025,
+          "avg_price": 1904,
+          "volume": 44028201.6,
+          "trade_count": 108195,
+          "change_pct": -18.8
+        },
+        {
+          "year": 2026,
+          "avg_price": 1782,
+          "volume": 32914195.9,
+          "trade_count": 58385,
+          "change_pct": -4.4,
+          "is_partial": true,
+          "coverage_months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "change_pct_basis": "yoy_same_period"
+        }
+      ],
+      "monthly_recent": [
+        {
+          "year": 2024,
+          "month": 1,
+          "avg_price": 2878,
+          "volume": 2310366.1
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "avg_price": 3950,
+          "volume": 2782768.4
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "avg_price": 4450,
+          "volume": 2471493.1
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "avg_price": 2800,
+          "volume": 3710394.5
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "avg_price": 1492,
+          "volume": 4340919.7
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "avg_price": 1131,
+          "volume": 4908651.2
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "avg_price": 1224,
+          "volume": 4920573.8
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "avg_price": 2240,
+          "volume": 3210679.2
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "avg_price": 2409,
+          "volume": 4314320.3
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "avg_price": 2771,
+          "volume": 3411880.1
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "avg_price": 2977,
+          "volume": 3109750.2
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "avg_price": 2108,
+          "volume": 3308070.7
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "avg_price": 2526,
+          "volume": 1147726.0
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "avg_price": 2920,
+          "volume": 3111241.2
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "avg_price": 3162,
+          "volume": 2758440.9
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "avg_price": 2171,
+          "volume": 3776697.7
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "avg_price": 1510,
+          "volume": 3999166.6
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "avg_price": 1558,
+          "volume": 4889298.6
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "avg_price": 1255,
+          "volume": 5521452.8
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "avg_price": 1275,
+          "volume": 4242839.8
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "avg_price": 1542,
+          "volume": 4866985.1
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "avg_price": 2442,
+          "volume": 2297523.6
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "avg_price": 2298,
+          "volume": 4035357.9
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "avg_price": 1938,
+          "volume": 3381471.3
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "avg_price": 2679,
+          "volume": 2263533.4
+        },
+        {
+          "year": 2026,
+          "month": 2,
+          "avg_price": 2954,
+          "volume": 3813173.0
+        },
+        {
+          "year": 2026,
+          "month": 3,
+          "avg_price": 2303,
+          "volume": 3252747.0
+        },
+        {
+          "year": 2026,
+          "month": 4,
+          "avg_price": 1592,
+          "volume": 3822858.3
+        },
+        {
+          "year": 2026,
+          "month": 5,
+          "avg_price": 1126,
+          "volume": 4818936.7
+        },
+        {
+          "year": 2026,
+          "month": 6,
+          "avg_price": 1660,
+          "volume": 3459734.6
+        },
+        {
+          "year": 2026,
+          "month": 7,
+          "avg_price": 965,
+          "volume": 4869564.0
+        },
+        {
+          "year": 2026,
+          "month": 8,
+          "avg_price": 1794,
+          "volume": 6613648.9
+        }
+      ]
+    }
+  },
+  "product_count": 32,
+  "generated": "2026-08-13 10:12",
+  "data_range": "2018-01 ~ 2026-08",
+  "sampling": "월별 최대 7일 샘플링",
+  "total_days_processed": 728,
+  "yearly_range": "2018~2026",
+  "monthly_recent_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "description": "장기 가격 트렌드 — 품목별 연간 평균가 + 최근 3년 월별 상세",
+  "partial_year_note": "현재 연도(미완성)의 change_pct는 전년 *동기간*(같은 월 범위) 물량가중 평균과 비교(change_pct_basis='yoy_same_period', is_partial=true). 과거 연도는 연 전체 vs 연 전체 비교."
+}
