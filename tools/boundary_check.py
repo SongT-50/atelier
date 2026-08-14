@@ -98,8 +98,12 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | 
             # 면제: 문서용 example.* / 회신 불가 주소(개인 연락처가 아니다)
             # 왼쪽은 \b 로 부족하다 — no-reply 의 하이픈 앞에도 경계가 있어서
             # 거기서 시작하면 -reply@… 로 면제를 우회한다(음성 대조군이 잡아냈다).
+            # 도메인 쪽 noreply 도 면제한다 — GitHub 은 12345+name@users.noreply.github.com 형태다.
             r"(?<![A-Za-z0-9._%+-])(?!no-?reply@)"
-            r"[A-Za-z0-9._%+-]+@(?!example\.(?:com|org|net)\b)[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
+            r"[A-Za-z0-9._%+-]+@"
+            r"(?!example\.(?:com|org|net)\b)"
+            r"(?![A-Za-z0-9.-]*\bno-?reply\b)"
+            r"[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
             "이메일 주소",
             None,
         ),
@@ -117,7 +121,14 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | 
             "사설 IP",
             None,
         ),
-        ("internal-host", r"\b[a-z0-9][a-z0-9-]{2,}\.(?:local|internal|intranet|corp|lan)\b", "내부 호스트명", None),
+        # 앞의 (?<!...) 는 .env.local 같은 파일명을, 뒤의 (?!...) 는 settings.local.json 을 뺀다.
+        # 둘 다 실제 대상에서 나온 오탐이다 — 대가로 api.internal.example.com 류를 놓친다.
+        (
+            "internal-host",
+            r"(?<![.\w-])[a-z0-9][a-z0-9-]{2,}\.(?:local|internal|intranet|corp|lan)\b(?!\.[a-z])",
+            "내부 호스트명",
+            None,
+        ),
     ]
     out = [(pid, re.compile(rx), why, re.compile(ctx) if ctx else None) for pid, rx, why, ctx in pats]
 
@@ -193,6 +204,11 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         # ↓ git trailer 는 매 커밋에 붙고 표현을 바꿀 수 없다. noreply 는 개인 연락처가 아니다.
         ("", "Co-Authored-By: Someone <noreply@example-host.com>"),
         ("", "알림 발신: no-reply@github.com"),
+        # ↓ 실제 대상(공개 저장소 27곳의 커밋 메시지)에서 나온 오탐. 파일명이지 호스트명이 아니다.
+        ("", "cp .env.example .env.local 만으로 바로 실행 가능하도록"),
+        ("", "settings.local.json 을 편집한다"),
+        # ↓ git 작성자 필드의 표준 형태. 계정을 가리키지 개인 연락처가 아니다.
+        ("", "Author: 12345678+someone@users.noreply.github.com"),
     ]
     return positive, negative
 
@@ -357,7 +373,22 @@ def main(argv: list[str]) -> int:
         violations += scan_text("(커밋 메시지)", msgs, patterns)
         n_commits = len(git("log", "--format=%H").splitlines())
 
-    print(f"  본 검사 [{mode}] — 파일 {len(targets)}개 · 커밋 메시지 {n_commits}개")
+    # ── 커밋 작성자 ──
+    # 본문도 메시지도 아닌 **메타데이터**로 샌다. 이 경로를 안 보다가 개인 이메일을
+    # 공개 저장소로 내보낸 적이 있다(2026-08-14). git log 로 누구나 읽을 수 있다.
+    who_n = 0
+    if staged:
+        who = "\n".join(x for x in (git("config", "user.email"), git("config", "user.name")) if x.strip())
+        if who.strip():
+            violations += scan_text("(git config — 앞으로 만들 커밋의 작성자)", who, patterns)
+            who_n = 1
+    elif not argv and not msg_file:
+        who = "\n".join(sorted({x for x in git("log", "--format=%ae%n%ce%n%an%n%cn").splitlines() if x}))
+        if who:
+            violations += scan_text("(커밋 작성자)", who, patterns)
+            who_n = len(who.splitlines())
+
+    print(f"  본 검사 [{mode}] — 파일 {len(targets)}개 · 커밋 메시지 {n_commits}개 · 작성자 {who_n}종")
     if skipped:
         print(f"  안 읽은 파일 {len(skipped)}개: {', '.join(skipped)}   ← 이건 「깨끗함」이 아니라 「안 봤음」이다")
 
