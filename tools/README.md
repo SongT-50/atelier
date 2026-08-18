@@ -6,6 +6,7 @@
 python tools/boundary_check.py              # 이 저장소
 python tools/boundary_check.py <경로>...    # 반입 후보를 미리
 python tools/boundary_check.py --mutate     # 대조군에 이빨이 있는지
+python tools/fp_measure.py <경로>...        # 적발을 판정해서 오탐률을 낸다
 ```
 
 종료 코드 — `0` 깨끗함 · `1` 위반 발견 · **`2` 검사기 고장(대조군 실패)**.
@@ -206,6 +207,16 @@ python tools/boundary_check.py --message all.diff
 컨테이너 설정 · 링크 목록). 각 저장소 최근 50커밋을 얕게 복제해 **워킹트리**를 봤다.
 
 **분모** — 파일 **1,189개** · 줄 **267,549**.
+
+**재현** — 판정을 손으로 세면 재현이 안 되므로 코드로 고정했다.
+
+```bash
+git clone --depth 50 <저장소> ...
+python tools/fp_measure.py <복제한 경로>...
+```
+
+⚠️ 이 스크립트는 **현재** 패턴으로 잰다. 아래 3.7% 는 좁히기 **전** 값이라,
+그대로 재현하려면 그 직전 커밋의 검사기로 돌려야 한다.
 
 ### 결과 (고치기 **전** — 처음 보는 데이터에서 잰 값)
 
