@@ -3,6 +3,7 @@
 
     python tools/boundary_check.py              # 이 저장소를 검사한다
     python tools/boundary_check.py <경로>...    # 반입 후보를 미리 검사한다
+    python tools/boundary_check.py --mutate     # 대조군에 이빨이 있는지 본다
 
 두 번째 형태가 규칙 1의 동어반복을 피하는 쪽이다. 자기가 만든 표본만으로는
 검사가 살아 있음을 증명하지 못한다 — **아직 정제되지 않은 실제 대상**에 돌려
@@ -66,6 +67,61 @@ def runtime_identity() -> list[str]:
 
 
 # ─────────────────────────────────────────────────────────────
+# 거부 조건(veto) — 「같은 줄에 무엇이 있나」로는 못 가르는 것
+# ─────────────────────────────────────────────────────────────
+# 문맥 조건(ctx)은 줄 전체를 보지만 **매치가 어디에 있는지**는 못 본다.
+# URL 안쪽인지 아닌지가 딱 그 경우다. 한 번도 안 본 저장소 5곳에 돌려서
+# 나온 오탐 34건 중 28건이 여기였다(2026-08-18).
+#
+# ⚠️ 좁히는 것은 공짜가 아니다. 무엇을 못 잡게 되는지 tools/README.md 에 적었다.
+
+# 한 덩어리를 끊는 문자들. 따옴표를 소스에 직접 적지 않는다 —
+# 이 파일도 검사 대상이라 escape 가 꼬이면 검사기 자신이 안 돌아간다.
+_BREAK_CHARS = "/ 	" + chr(34) + chr(39)
+
+
+def _has_break(seg: str, extra: str = "") -> bool:
+    """조각 안에 덩어리를 끊는 문자가 있나."""
+    return any(c in _BREAK_CHARS + extra for c in seg)
+
+
+def _after_scheme(line: str, start: int) -> str | None:
+    """매치 앞에 `scheme://` 가 있으면 그 뒤부터 매치 직전까지를 낸다."""
+    i = line.rfind("://", 0, start)
+    return None if i < 0 else line[i + 3 : start]
+
+
+def veto_url_path(line: str, m: re.Match[str]) -> bool:
+    """`http://host/home/...` 의 첫 경로 조각을 홈 디렉토리로 읽는 것을 막는다.
+
+    호스트 부분이 **비어 있지 않을 것**을 요구한다. 그래서 `file:///home/사용자명`
+    은 그대로 잡힌다(비면 호스트가 없다는 뜻이고, 그건 진짜 로컬 경로다).
+    """
+    seg = _after_scheme(line, m.start())
+    return seg is not None and len(seg) > 0 and not _has_break(seg)
+
+
+def veto_email_noise(line: str, m: re.Match[str]) -> bool:
+    """이메일 모양이지만 연락처가 아닌 둘을 막는다.
+
+    - `scheme://user:pass@host` 의 userinfo — 매치 앞에 `/ ? #` 가 없을 때만.
+      그래서 `https://site/?email=...` 같은 **질의 문자열 속 진짜 주소는 남는다.**
+    - `git@host:` 형태의 SSH 원격 주소.
+    """
+    seg = _after_scheme(line, m.start())
+    if seg is not None and not _has_break(seg, extra="?#"):
+        return True
+    return m.group(0).startswith("git@") and line[m.end() : m.end() + 1] == ":"
+
+
+# 패턴 id → 거부 조건. 여기 없는 패턴은 거부 조건이 없다.
+VETOES = {
+    "abs-path-nix": veto_url_path,
+    "email": veto_email_noise,
+}
+
+
+# ─────────────────────────────────────────────────────────────
 # 패턴
 # ─────────────────────────────────────────────────────────────
 def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | None]]:
@@ -88,7 +144,8 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | 
         (
             "keylike-assign",
             r"(?i)\b(?:service_?key|api_?key|access_?token|auth_?token|client_?secret|password|passwd)\b"
-            r"\s*[=:]\s*[\"']?[A-Za-z0-9/+_%-]{16,}",
+            # 뒤에 여는 괄호가 오면 비밀이 아니라 호출이다 — `password = get_auth_from_url(...)`
+            r"\s*[=:]\s*[\"']?[A-Za-z0-9/+_%-]{16,}(?![A-Za-z0-9/+_%-]*\()",
             "키·토큰·비밀번호 대입",
             None,
         ),
@@ -117,9 +174,11 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str, re.Pattern[str] | 
         # ── 내부 망 ──
         (
             "private-ip",
-            r"(?<![\d.])(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}"
-            r"|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3}"
-            r"|192\.168\.\d{1,3}\.\d{1,3})(?![\d.])",
+            # 옥텟을 0-255 로 묶는다. \d{1,3} 이면 192.168.1.999 같은
+            # **IP 가 아닌 것**까지 사설 IP 로 읽는다(실제 대상에서 나온 오탐).
+            r"(?<![\d.])(?:10\.O\.O\.O"
+            r"|172\.(?:1[6-9]|2\d|3[01])\.O\.O"
+            r"|192\.168\.O\.O)(?![\d.])".replace("O", r"(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)"),
             "사설 IP",
             None,
         ),
@@ -152,7 +211,10 @@ def line_hits(line: str, patterns):
     for pid, rx, why, ctx in patterns:
         if ctx is not None and not ctx.search(line):
             continue
+        veto = VETOES.get(pid)
         for m in rx.finditer(line):
+            if veto is not None and veto(line, m):
+                continue
             yield pid, why, m
 
 
@@ -184,6 +246,10 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         ("private-ip", "내부 서버 " + "192.168." + "0.42"),
         ("internal-host", "접속 " + "db-master" + ".internal"),
         ("machine-identity", "빌드한 사람: " + user),
+        # ↓ 아래 둘은 **좁히기의 대가를 감시하는** 표본이다. URL 안쪽을 빼면서
+        #   같이 빠지면 안 되는 것들 — 빠지는 순간 대조군이 죽는다.
+        ("abs-path-nix", "설정 " + "file:///home/" + user + "/secret.txt"),
+        ("email", "https://site.example/?" + "email=" + "hong" + "@" + "somecompany" + ".co.kr"),
     ]
 
     negative = [
@@ -214,6 +280,13 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         # ↓ diff 를 검사할 때 나온다. 앞의 +/- 는 diff 표시이고 뒤는 데코레이터다.
         ("", "+@mcp.tool()"),
         ("", "-@app.route('/api/v1')"),
+        # ↓ 아래 다섯은 **한 번도 안 본 제3자 저장소 5곳**에 돌려서 나온 오탐이다
+        #   (2026-08-18, 적발 912건 중 34건). 우리가 상상해 넣은 것이 아니다.
+        ("", "문서 http://semanticweb.example.ac.kr/home/index.php/HanNanum 을 본다"),
+        ("", "git clone git@github.com:someone/repo.git"),
+        ("", "접속 http://user:pass@complex.url.example/path"),
+        ("", "username, password = get_auth_from_url(proxy)"),
+        ("", "대역 192.168.1.999/24 는 IP 가 아니다"),
     ]
     return positive, negative
 
@@ -235,6 +308,27 @@ def run_controls(patterns) -> list[str]:
             failures.append(f"음성 대조군 오탐 — 걸리면 안 되는 것이 걸렸다 ({names}): {text}")
 
     return failures
+
+
+def run_mutation_test(patterns) -> list[str]:
+    """패턴을 하나씩 빼 보고 **대조군이 그것을 잡는지** 본다.
+
+    대조군이 **있다**는 것과 대조군에 **이빨이 있다**는 것은 다른 문장이다.
+    양성 표본이 어떤 패턴을 못 덮고 있으면, 그 패턴은 죽어도 아무도 모른다 —
+    그러면 그 패턴에 대해서는 대조군이 없는 것과 같다.
+
+    ⚠️ 이것이 증명하지 못하는 것: 여기서 하는 변이는 **통째 제거**라는 거친 변이다.
+       정규식을 미묘하게 약화시키는 변이(예: 자릿수 하나 줄이기)는 **안 본다.**
+       그러니 이 시험의 통과는 *"대조군이 완전하다"* 가 아니라
+       *"패턴이 통째로 사라지면 안다"* 까지만 말한다.
+    """
+    silent = []
+    for i, entry in enumerate(patterns):
+        pid = entry[0]
+        rest = [p for j, p in enumerate(patterns) if j != i]
+        if not any(pid in f for f in run_controls(rest)):
+            silent.append(pid)
+    return silent
 
 
 # ─────────────────────────────────────────────────────────────
@@ -311,7 +405,8 @@ def main(argv: list[str]) -> int:
         msg_file = argv[i + 1] if i + 1 < len(argv) else None
         del argv[i : i + 2]
     staged = "--staged" in argv
-    argv = [a for a in argv if a != "--staged"]
+    mutate = "--mutate" in argv
+    argv = [a for a in argv if a not in ("--staged", "--mutate")]
 
     patterns = build_patterns()
     ident = runtime_identity()
@@ -329,6 +424,19 @@ def main(argv: list[str]) -> int:
         print("\n본 검사를 돌리지 않았다. 여기서 나온 「0건」은 근거가 아니다.")
         return 2
     print(f"  대조군 통과 — 양성 {len(pos)}/{len(pos)} 잡음 · 음성 {len(neg)}/{len(neg)} 조용")
+
+    # ── 1-b) 대조군에 이빨이 있나 (요청했을 때만) ──
+    if mutate:
+        silent = run_mutation_test(patterns)
+        print()
+        print(f"변이 시험 — 패턴을 하나씩 제거해 대조군이 비명을 지르는지 본다 (분모 {len(patterns)})")
+        if silent:
+            print(f"  ✗ 죽여도 조용한 패턴 {len(silent)}종: {', '.join(silent)}")
+            print("    이 패턴들은 양성 대조군이 안 덮는다 — 있으나 마나다.")
+            return 2
+        print(f"  ✓ {len(patterns)}/{len(patterns)} 전부 잡힘")
+        print("    단 이건 **통째 제거**라는 거친 변이다. 미묘한 약화는 안 봤다.")
+        return 0
 
     # ── 2) 본 검사 ──
     violations: list[str] = []
