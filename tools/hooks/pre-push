@@ -1,0 +1,23 @@
+#!/bin/sh
+# 발행 게이트 — 로컬에 검사기가 설정돼 있으면 push 전에 돌린다.
+#
+#   git config publish.gate /경로/검사기            # 걸기
+#   git config --unset publish.gate                 # 풀기
+#
+# 경로를 이 파일에 적지 않는 이유: 이 파일은 커밋돼 공개된다.
+# 설정하지 않았으면 조용히 통과한다 — 남의 복제본을 막지 않기 위해서다.
+GATE=$(git config --get publish.gate 2>/dev/null)
+if [ -z "$GATE" ]; then
+    exit 0
+fi
+if [ ! -f "$GATE" ]; then
+    echo "publish.gate 에 적힌 파일이 없다: $GATE"
+    echo "  검사를 못 돌린 것은 '깨끗함'이 아니다. push 를 막는다."
+    exit 1
+fi
+PY=$(command -v python3 || command -v python)
+if [ -z "$PY" ]; then
+    echo "python 을 찾지 못해 발행 게이트를 못 돌렸다. push 를 막는다."
+    exit 1
+fi
+exec "$PY" "$GATE" "$(git rev-parse --show-toplevel)"
