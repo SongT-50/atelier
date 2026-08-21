@@ -1,23 +1,47 @@
 #!/bin/sh
-# 발행 게이트 — 로컬에 검사기가 설정돼 있으면 push 전에 돌린다.
+# 발행 직전 — push 를 치면 이것이 **먼저** 돈다.
 #
-#   git config publish.gate /경로/검사기            # 걸기
-#   git config --unset publish.gate                 # 풀기
+# 사람이 기억해야 도는 절차는 절차가 아니다. 이 저장소를 발행하면서
+# 돌리기로 되어 있던 검사를 푸시하고 나서 돌린 일이 하루에 두 번 있었다.
 #
-# 경로를 이 파일에 적지 않는 이유: 이 파일은 커밋돼 공개된다.
-# 설정하지 않았으면 조용히 통과한다 — 남의 복제본을 막지 않기 위해서다.
+# 두 가지를 본다.
+#
+#   ① 이 저장소의 경계 검사를 **히스토리 전체**로.
+#      워킹트리만 보는 것은 검사가 아니다 — git 에서 「지운다」는 최신 상태에서
+#      빼는 것이지 없애는 것이 아니고, 지웠던 것은 clone 한 번이면 누구나 꺼낸다.
+#
+#   ② 로컬에 발행 게이트가 걸려 있으면 그것도.
+#        git config publish.gate /경로/검사기   # 걸기
+#        git config --unset publish.gate        # 풀기
+#      경로를 이 파일에 적지 않는 이유 = 이 파일은 커밋돼 공개된다.
+#      설정 안 했으면 ②는 건너뛴다. 남의 복제본까지 막을 이유가 없다.
+#
+# 못 막는 것 — `--no-verify` 로 우회된다. 훅은 실수를 막지 고의를 막지 못한다.
+
+PY=$(command -v python3 || command -v python)
+if [ -z "$PY" ]; then
+    echo "✗ python 을 찾지 못해 검사를 못 돌렸다."
+    echo "  검사를 안 돌린 것은 '깨끗함'이 아니다. push 를 막는다."
+    exit 1
+fi
+
+ROOT=$(git rev-parse --show-toplevel)
+
+if ! "$PY" "$ROOT/tools/boundary_check.py" --history; then
+    echo ""
+    echo "✗ 히스토리 검사에서 걸렸다. push 를 막는다."
+    echo "  ⚠️ 워킹트리에서 지워도 안 없어진다 — 히스토리를 고쳐야 한다."
+    exit 1
+fi
+
 GATE=$(git config --get publish.gate 2>/dev/null)
 if [ -z "$GATE" ]; then
     exit 0
 fi
 if [ ! -f "$GATE" ]; then
-    echo "publish.gate 에 적힌 파일이 없다: $GATE"
+    echo "✗ publish.gate 에 적힌 파일이 없다: $GATE"
     echo "  검사를 못 돌린 것은 '깨끗함'이 아니다. push 를 막는다."
     exit 1
 fi
-PY=$(command -v python3 || command -v python)
-if [ -z "$PY" ]; then
-    echo "python 을 찾지 못해 발행 게이트를 못 돌렸다. push 를 막는다."
-    exit 1
-fi
-exec "$PY" "$GATE" "$(git rev-parse --show-toplevel)"
+
+exec "$PY" "$GATE" "$ROOT"

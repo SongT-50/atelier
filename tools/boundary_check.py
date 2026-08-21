@@ -4,6 +4,7 @@
     python tools/boundary_check.py              # 이 저장소를 검사한다
     python tools/boundary_check.py <경로>...    # 반입 후보를 미리 검사한다
     python tools/boundary_check.py --mutate     # 대조군에 이빨이 있는지 본다
+    python tools/boundary_check.py --history    # 지웠던 것까지 — 히스토리 전체
 
 두 번째 형태가 규칙 1의 동어반복을 피하는 쪽이다. 자기가 만든 표본만으로는
 검사가 살아 있음을 증명하지 못한다 — **아직 정제되지 않은 실제 대상**에 돌려
@@ -397,6 +398,89 @@ def external_files(roots: list[str]) -> list[tuple[str, Path]]:
     return out
 
 
+# ─────────────────────────────────────────────────────────────
+# 히스토리 — 지금 파일이 아니라 **지웠던 것까지**
+# ─────────────────────────────────────────────────────────────
+# git 에서 「지운다」는 것은 최신 상태에서 빼는 것이지 없애는 것이 아니다.
+# 워킹트리만 검사하면 **clone 한 번이면 누구나 꺼내는 것**을 못 본다.
+#
+# `git log -p` 로 훑으면 같은 내용이 커밋 수만큼 반복돼 큰 저장소에서 안 끝난다.
+# 여기서는 **blob 을 sha 로 묶어 한 번씩만** 본다 — 같은 내용은 sha 가 같다.
+
+
+def history_blobs() -> list[tuple[str, str]]:
+    """(blob sha, 그 sha 가 처음 보인 경로). 트리·커밋 객체는 뺀다."""
+    listing = git("rev-list", "--objects", "--all")
+    cand: dict[str, str] = {}
+    for line in listing.splitlines():
+        sha, _, path = line.partition(" ")
+        if path and len(sha) == 40:
+            cand.setdefault(sha, path)
+    if not cand:
+        return []
+
+    # 타입·크기를 한 번에 물어본다(객체마다 프로세스를 띄우지 않는다).
+    shas = list(cand)
+    chk = subprocess.run(
+        ["git", "cat-file", "--batch-check"], cwd=REPO,
+        input="\n".join(shas), capture_output=True, text=True, encoding="utf-8", errors="replace",
+    )
+    out: list[tuple[str, str]] = []
+    for line in chk.stdout.splitlines():
+        parts = line.split()
+        if len(parts) == 3 and parts[1] == "blob":
+            out.append((parts[0], cand.get(parts[0], "?")))
+    return out
+
+
+def read_blobs(shas: list[str]) -> dict[str, bytes]:
+    """blob 여러 개를 한 번에 읽는다. git cat-file --batch 형식을 그대로 판다."""
+    if not shas:
+        return {}
+    r = subprocess.run(
+        ["git", "cat-file", "--batch"], cwd=REPO,
+        input=("\n".join(shas) + "\n").encode(), capture_output=True,
+    )
+    data, i, got = r.stdout, 0, {}
+    while i < len(data):
+        nl = data.find(b"\n", i)
+        if nl < 0:
+            break
+        header = data[i:nl].split()
+        i = nl + 1
+        if len(header) != 3:
+            continue
+        sha, size = header[0].decode(), int(header[2])
+        got[sha] = data[i : i + size]
+        i += size + 1  # 내용 뒤의 개행
+    return got
+
+
+def scan_history(patterns) -> tuple[list[str], list[str], int]:
+    """(위반, 안 읽은 것, 본 blob 수)"""
+    blobs = history_blobs()
+    violations: list[str] = []
+    skipped: list[str] = []
+    contents = read_blobs([sha for sha, _ in blobs])
+    for sha, path in blobs:
+        raw = contents.get(sha)
+        if raw is None:
+            skipped.append(f"{path}@{sha[:8]} (못 읽음)")
+            continue
+        if len(raw) > MAX_BYTES:
+            skipped.append(f"{path}@{sha[:8]} (>{MAX_BYTES // 1000}KB)")
+            continue
+        if b"\x00" in raw:
+            skipped.append(f"{path}@{sha[:8]} (바이너리)")
+            continue
+        # 경로도 샌다. 지금은 없어진 경로까지 본다.
+        violations += scan_text(f"(옛 경로) {path}@{sha[:8]}", path, patterns)
+        violations += scan_text(
+            f"{path}@{sha[:8]}", raw.decode("utf-8", errors="replace"), patterns
+        )
+    return violations, skipped, len(blobs)
+
+
 def main(argv: list[str]) -> int:
     argv = list(argv)
     msg_file = None
@@ -406,7 +490,16 @@ def main(argv: list[str]) -> int:
         del argv[i : i + 2]
     staged = "--staged" in argv
     mutate = "--mutate" in argv
-    argv = [a for a in argv if a not in ("--staged", "--mutate")]
+    history = "--history" in argv
+    argv = [a for a in argv if a not in ("--staged", "--mutate", "--history")]
+
+    # 모르는 플래그를 **경로로 읽지 않는다.** 오타 하나가 「대상 0개 → 위반 0건」이 되어
+    # 그대로 「깨끗함」으로 읽힌다. 실제로 이 자리에서 한 번 그렇게 나왔다(2026-08-21).
+    unknown = [a for a in argv if a.startswith("-")]
+    if unknown:
+        print(f"✗ 모르는 옵션: {' '.join(unknown)}")
+        print("  여기서 「0건」이 나오면 그건 부재가 아니라 **아무것도 안 본 것**이다.")
+        return 2
 
     patterns = build_patterns()
     ident = runtime_identity()
@@ -441,6 +534,25 @@ def main(argv: list[str]) -> int:
     # ── 2) 본 검사 ──
     violations: list[str] = []
     skipped: list[str] = []
+
+    if history:
+        violations, skipped, n_blobs = scan_history(patterns)
+        msgs = git("log", "--all", "--format=%H%n%B%n---")
+        violations += scan_text("(커밋 메시지 전체)", msgs, patterns)
+        who = "\n".join(sorted({x for x in git("log", "--all", "--format=%ae%n%ce%n%an%n%cn").splitlines() if x}))
+        violations += scan_text("(커밋 작성자 전체)", who, patterns)
+        n_commits = len(git("log", "--all", "--format=%H").splitlines())
+        print(f"  본 검사 [히스토리 전체 — 지웠던 것까지] — 고유 blob {n_blobs}개 · 커밋 {n_commits}개")
+        if skipped:
+            print(f"  안 읽은 blob {len(skipped)}개   ← 「깨끗함」이 아니라 「안 봤음」이다")
+        if violations:
+            print(f"\n✗ 위반 {len(violations)}건")
+            for v in violations:
+                print(v)
+            print("\n⚠️ 히스토리에서 나온 것은 **워킹트리에서 지워도 안 없어진다.**")
+            return 1
+        print(f"\n✓ 위반 0건 / blob {n_blobs} · 커밋 {n_commits}  (분모를 함께 읽을 것)")
+        return 0
 
     if msg_file:
         targets: list[tuple[str, Path | None]] = []
