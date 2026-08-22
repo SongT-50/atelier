@@ -263,6 +263,13 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         #   같이 빠지면 안 되는 것들 — 빠지는 순간 대조군이 죽는다.
         ("abs-path-nix", "설정 " + "file:///home/" + user + "/secret.txt"),
         ("email", "https://site.example/?" + "email=" + "hong" + "@" + "somecompany" + ".co.kr"),
+        # ↓ **경계값** 표본. 자릿수 하한을 한 칸만 올려도 이것들이 빠진다 —
+        #   그 변이를 대조군이 알아채게 하려고 일부러 최소 길이로 둔다.
+        ("slack-token", "알림 " + "xox" + "a-" + "0123456789"),        # 접두 뒤 딱 10자
+        ("github-token", "토큰 " + "gh" + "o_" + "B" * 30),            # 딱 30자
+        ("kr-phone-plain", "연락 " + "010" + "1234567"),               # 010 뒤 딱 7자리
+        ("email", "메일 " + "a" + "@" + "bb" + ".io"),                 # TLD 딱 2자
+        ("internal-host", "접속 " + "abc" + ".local"),                 # 앞머리 딱 3자
     ]
 
     negative = [
@@ -300,7 +307,20 @@ def control_samples() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
         ("", "접속 http://user:pass@complex.url.example/path"),
         ("", "username, password = get_auth_from_url(proxy)"),
         ("", "대역 192.168.1.999/24 는 IP 가 아니다"),
+        # ↓ **경계 바로 바깥** 표본. 패턴이 한 칸만 느슨해지면 이것들이 걸린다 —
+        #   미묘한 약화를 알아채는 것은 이런 표본뿐이다(2026-08-22 변이 시험에서 나온 사각지대).
+        ("", "키는 " + "AKIA" + "abcdefghijklmnop"),      # 소문자 — AWS 키 형식이 아니다
+        ("", "값 " + "gh" + "p_" + "A" * 29),             # 29자 — 한 자 모자란다
+        ("", "값 " + "xox" + "b-" + "123456789"),         # 9자 — 한 자 모자란다
+        ("", "코드 " + "900101-" + "5234567"),            # 뒷자리 첫 숫자 5 — 주민번호 형식이 아니다
+        ("", "값 " + "a" + "@" + "b" + ".c"),             # TLD 1자 — 주소가 아니다
+        ("", "대역 10.999.0.1 과 172.300.0.1"),           # 옥텟 초과
+        ("", "값 ab.local 은 앞머리가 짧다"),              # 2자 — 일부러 안 본다
     ]
+    # 머신 신원은 런타임 값이라 여기서 만든다.
+    # 낱말 경계가 빠지면 **다른 낱말 속의 같은 글자**까지 잡는다 — 그것을 알아채려는 표본.
+    negative.append(("", "값 " + user + "electronics 는 다른 낱말이다"))
+
     return positive, negative
 
 
@@ -321,6 +341,127 @@ def run_controls(patterns) -> list[str]:
             failures.append(f"음성 대조군 오탐 — 걸리면 안 되는 것이 걸렸다 ({names}): {text}")
 
     return failures
+
+
+def mutants(src: str):
+    """정규식을 **미묘하게** 바꾼 것들을 낸다. (무엇을 바꿨나, 바뀐 정규식)
+
+    통째 제거는 거친 변이다 — 실제 고장은 이렇게 온다:
+    자릿수 하나가 밀리고, 앞뒤 조건 하나가 빠지고, 문자 종류가 넓어진다.
+    ### 그런 변이를 대조군이 알아채지 못하면, 그 자리에는 **대조군이 없는 것과 같다.**
+    """
+    out: list[tuple[str, str]] = []
+
+    # ① 자릿수 하한을 한 칸씩 민다 — 낮추면 오탐이 늘고, 높이면 놓친다
+    for m in re.finditer(r"\{(\d+),(\d*)\}", src):
+        lo, hi = int(m.group(1)), m.group(2)
+        for new_lo, tag in ((lo - 1, "낮춤"), (lo + 1, "높임")):
+            if new_lo < 1:
+                continue
+            out.append((f"하한 {lo}→{new_lo} ({tag})",
+                        src[: m.start()] + "{%d,%s}" % (new_lo, hi) + src[m.end():]))
+
+    # ② 앞뒤 조건(lookaround)을 하나씩 뺀다 — 오탐을 줄이려고 붙인 것들이다
+    for m in re.finditer(r"\(\?<?[=!](?:[^()]|\([^()]*\))*\)", src):
+        out.append((f"앞뒤 조건 제거 {m.group(0)[:18]}…", src[: m.start()] + src[m.end():]))
+
+    # ③ 낱말 경계를 하나씩 뺀다
+    for m in re.finditer(r"\\b", src):
+        out.append(("낱말 경계 제거", src[: m.start()] + src[m.end():]))
+
+    # ④ 문자 종류를 넓힌다 — 좁혀 둔 것을 아무 글자나 받게
+    for m in re.finditer(r"\[[^\]]{2,}\]", src):
+        out.append((f"문자 종류 넓힘 {m.group(0)[:14]}…", src[: m.start()] + "." + src[m.end():]))
+
+    # ⑤ 갈래(|)를 하나씩 뺀다 — 여러 형태를 받는 패턴에서 한 형태를 잃는다
+    depth = 0
+    bars = []
+    for i, ch in enumerate(src):
+        if ch == "\\":
+            continue
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+        elif ch == "|" and depth == 0:
+            bars.append(i)
+    if bars:
+        cuts = [-1] + bars + [len(src)]
+        for k in range(len(cuts) - 1):
+            piece = "|".join(src[cuts[j] + 1: cuts[j + 1]] for j in range(len(cuts) - 1) if j != k)
+            out.append((f"갈래 {k + 1} 제거", piece))
+    return out
+
+
+def corpus_lines(extra_roots: list[str] | None = None) -> list[str]:
+    """차이를 재볼 실제 글줄. 이 저장소의 추적 파일 + 대조군 표본 전부.
+
+    좁다. 그래서 여기서 *"차이 없음"* 은 **「이 글에서 차이가 안 났다」** 까지만 말한다.
+    """
+    out: list[str] = []
+    for rel in tracked_files():
+        p = REPO / rel
+        try:
+            raw = p.read_bytes()
+        except OSError:
+            continue
+        if len(raw) > MAX_BYTES or b"\x00" in raw:
+            continue
+        out += raw.decode("utf-8", errors="replace").splitlines()
+    pos, neg = control_samples()
+    out += [t for _, t in pos] + [t for _, t in neg]
+
+    # 글이 좁으면 「등가」 판정이 부풀려진다 — 안 달라진 게 아니라 **달라질 글이 없던 것**이다.
+    # 그래서 밖의 글을 넣을 수 있게 한다: --mutate <경로>...
+    for rel, p in external_files(extra_roots or []):
+        try:
+            raw = p.read_bytes()
+        except OSError:
+            continue
+        if len(raw) > MAX_BYTES or b"\x00" in raw:
+            continue
+        out += raw.decode("utf-8", errors="replace").splitlines()
+    return out
+
+
+def differs(a: re.Pattern[str], b: re.Pattern[str], lines: list[str]) -> bool:
+    """두 정규식이 이 글에서 **한 번이라도 다르게 굴면** True."""
+    for ln in lines:
+        ma, mb = a.search(ln), b.search(ln)
+        if (ma is None) != (mb is None):
+            return True
+        if ma is not None and mb is not None and ma.group(0) != mb.group(0):
+            return True
+    return False
+
+
+def run_deep_mutation(patterns, extra_roots: list[str] | None = None):
+    """미묘한 변이를 만들어, **대조군이 알아채는지** 본다.
+
+    돌려주는 것: 대조군이 **못 알아챈** 변이 목록 = 그 자리의 사각지대.
+    """
+    silent = []
+    equivalent = []
+    tried = 0
+    lines = corpus_lines(extra_roots)
+    for i, (pid, rx, why, ctx) in enumerate(patterns):
+        for what, src in mutants(rx.pattern):
+            try:
+                new = re.compile(src)
+            except re.error:
+                continue
+            if new.pattern == rx.pattern:
+                continue
+            tried += 1
+            mutated = list(patterns)
+            mutated[i] = (pid, new, why, ctx)
+            if run_controls(mutated):
+                continue                       # 대조군이 알아챘다
+            # 대조군이 조용했다. 그런데 **정말 달라지긴 하나?**
+            # 어떤 글에서도 차이가 없으면 그건 사각지대가 아니라 **등가 변이**다 —
+            # 대조군을 아무리 늘려도 못 잡는다. 둘을 섞으면 수치가 부풀려진다.
+            (equivalent if not differs(rx, new, lines) else silent).append((pid, what))
+    return silent, equivalent, tried
 
 
 def run_mutation_test(patterns) -> list[str]:
@@ -540,7 +681,36 @@ def main(argv: list[str]) -> int:
             print("    이 패턴들은 양성 대조군이 안 덮는다 — 있으나 마나다.")
             return 2
         print(f"  ✓ {len(patterns)}/{len(patterns)} 전부 잡힘")
-        print("    단 이건 **통째 제거**라는 거친 변이다. 미묘한 약화는 안 봤다.")
+
+        # ── 미묘한 변이 ──
+        deep, equiv, tried = run_deep_mutation(patterns, argv)
+        print(f"    (차이를 잰 글 — 이 저장소" + (f" + 밖의 {len(argv)}곳" if argv else "") + ")")
+        print(f"\n  미묘한 변이 — 자릿수·앞뒤 조건·문자 종류·갈래를 한 칸씩 (분모 {tried})")
+        caught = tried - len(deep) - len(equiv)
+        print(f"    대조군이 알아챈 것 {caught} · 등가로 보이는 것 {len(equiv)} · "
+              f"### 사각지대 {len(deep)}")
+        if equiv:
+            print("      (등가 = 이 글에서 원본과 **한 번도 다르게 안 군** 변이. "
+                  "대조군을 늘려도 못 잡는다)")
+        if not deep:
+            print("    ✓ 사각지대 0건")
+            return 0
+        by_pid: dict[str, list[str]] = {}
+        for pid, what in deep:
+            by_pid.setdefault(pid, []).append(what)
+        print(f"    ✗ 사각지대 {len(deep)}건 / {tried}  — 실제로 달라지는데 대조군이 조용하다")
+        for pid, whats in sorted(by_pid.items(), key=lambda x: -len(x[1])):
+            head = " · ".join(sorted(set(whats))[:3])
+            more = f" 외 {len(whats) - 3}" if len(whats) > 3 else ""
+            print(f"      [{pid}] {len(whats)}건 — {head}{more}")
+        print("\n    이 자리들은 **패턴이 약해져도 아무도 모른다.**")
+        if not argv:
+            print("    ⚠️ 「등가」 판정을 **이 저장소의 글로만** 쟀다 — 좁으면 사각지대가 **과소평가**된다.")
+            print("       밖의 글을 더해라: python tools/boundary_check.py --mutate <경로>...")
+        else:
+            print("    ⚠️ 「등가」는 **여기까지의 글에서** 안 달라졌다는 뜻이다. 더 넓히면 또 늘 수 있다.")
+        print("    ⚠️ 이것은 실패가 아니라 **측정값**이다 — 종료 코드를 올리지 않는다.")
+        print("       대조군을 늘려 줄이는 것이 맞고, 0 이 되어야 하는 값은 아니다.")
         return 0
 
     # ── 2) 본 검사 ──
